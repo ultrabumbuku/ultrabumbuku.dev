@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'LINE Seed JP';
+    src: url('../../fonts/LINESeedJP_OTF_Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    src: url('../../fonts/LINESeedJP_OTF_Bd.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    src: url('../../fonts/LINESeedJP_OTF_Eb.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    src: url('../../fonts/LINESeedJP_OTF_Th.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* グローバルスタイル */
+/* グローバルスタイル */
+body {
+    font-family: 'LINE Seed JP', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 1.2rem;
+}
+
+header {
+    background: #FAD02E;
+    color: #333;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main {
+    padding: 1.5rem 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #555;
+}
+
+#players {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 既存の CSS ファイルの続き */
+
+.player {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.player label {
+    font-weight: bold;
+}
+
+.player input {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 1rem);
+}
+
+.player .remove-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: 1px solid #333;
+    color: #333;
+    cursor: pointer;
+    font-size: 0.6rem; /* サイズをさらに小さく */
+    padding: 0.2rem; /* パディングを小さく */
+    line-height: 1;
+    border-radius: 5px;
+    width: auto; /* ボタンの幅を自動調整 */
+    height: auto; /* ボタンの高さを自動調整 */
+}
+.player .remove-button:hover {
+    color: #555;
+}
+
+.player .select-button {
+    margin-top: 0.5rem;
+    width: auto; /* ボタンの幅を自動調整 */
+    margin-right: auto; /* 左寄せ */
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        width: 100%;
+        max-width: 300px;
+        font-size: 1rem;
+    }
+
+    .player {
+        width: calc(100% - 2rem);
+    }
+
+    .player input {
+        width: calc(100% - 1rem);
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .player input {
+        width: 100%;
+    }
+
+    .player .remove-button {
+        font-size: 0.5rem;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+    }
+    
+    .order-table {
+        width: 80%; /* テーブルの幅を調整 */
+        border-collapse: collapse;
+        margin: 0 auto 2rem; /* テーブルを中央に配置 */
+        border: 2px solid #333; /* 外枠線を追加 */
+    }
+    
+    .order-table th, .order-table td {
+        border: 1px solid #333; /* 各セルに枠線を追加 */
+        padding: 0.5rem;
+        text-align: left;
+    }
+    
+    .order-table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    
+    .order-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    
+    .player-result {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    
+    
+    
+}

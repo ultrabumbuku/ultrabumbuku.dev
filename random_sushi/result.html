@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>結果発表</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>結果発表</h1>
+    </header>
+    <main>
+        <section id="resultSection">
+            <!-- 結果がここに表示されます -->
+        </section>
+        <button id="backButton">戻る</button>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const resultSection = document.getElementById('resultSection');
+            const resultData = JSON.parse(localStorage.getItem('resultData'));
+            if (resultData) {
+                resultData.forEach(playerResult => {
+                    const playerResultDiv = document.createElement('div');
+                    playerResultDiv.className = 'player-result';
+
+                    const playerName = document.createElement('h2');
+                    playerName.textContent = `${playerResult.playerName}の注文`;
+                    playerResultDiv.appendChild(playerName);
+
+                    const orderTable = document.createElement('table');
+                    orderTable.className = 'order-table';
+
+                    const tableHeader = document.createElement('tr');
+                    tableHeader.innerHTML = '<th>メニュー</th><th>価格</th>';
+                    orderTable.appendChild(tableHeader);
+
+                    playerResult.orders.forEach(order => {
+                        const orderRow = document.createElement('tr');
+                        orderRow.innerHTML = `<td>${order.name}</td><td>${order.price}円</td>`;
+                        orderTable.appendChild(orderRow);
+                    });
+
+                    const totalAmountRow = document.createElement('tr');
+                    totalAmountRow.innerHTML = `<td>合計金額</td><td>${playerResult.totalAmount}円</td>`;
+                    totalAmountRow.style.fontWeight = 'bold';  // 強調表示
+                    orderTable.appendChild(totalAmountRow);
+
+                    playerResultDiv.appendChild(orderTable);
+                    resultSection.appendChild(playerResultDiv);
+                });
+            }
+
+            const backButton = document.getElementById('backButton');
+            backButton.addEventListener('click', function() {
+                localStorage.removeItem('resultData');
+                window.location.href = 'index.html';
+            });
+        });
+    </script>
+</body>
+</html>
+
+
