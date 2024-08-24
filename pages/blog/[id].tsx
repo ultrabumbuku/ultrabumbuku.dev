@@ -56,4 +56,3 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 export default Post;
 
-
