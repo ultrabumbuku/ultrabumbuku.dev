@@ -9,6 +9,7 @@ const Header: React.FC = () => {
           <ul>
             <li><Link href="/">Home</Link></li>
             <li><Link href="/blog">Blog</Link></li>
+            <li><Link href="/Mutual-links">Mutual Links</Link></li>
           </ul>
         </nav>
       </div>
