@@ -17,37 +17,32 @@ export default function Home() {
         <section id="about">
           <h2>About Me</h2>
           <p>筑波大学 知識情報・図書館学類に所属しています。大学3年生です。</p>
-          <p>普段は本を読んだり、家事をしたり、計算機を触ったり、授業に出たり、TQS<sup><Link href="#note1" className="note-link">*1</Link></sup>でクイズをしたり、げんしけん<sup><Link href="#note2" className="note-link">*2</Link></sup>でアーカイブのお手伝いをしたりしています。</p>
-          <p>今年はSecHack365 思索駆動コースに参加することになりました。がんばりたい！</p>
-          <p>1,2年次には学園祭<sup><Link href="#note3" className="note-link">*3</Link></sup>運営<sup><Link href="#note4" className="note-link">*4</Link></sup>をやっていました。</p>
+          <p>最近はもっぱら読書とプログラムを書くことに楽しみを見出しています。</p>
+          <p>今年はSecHack365 思索駆動コースに参加し、文書創作をより楽しめるような仕組みについて考えています。</p>
+          <p>1,2年次には学園祭<sup><Link href="#note1" className="note-link">*1</Link></sup>運営<sup><Link href="#note2" className="note-link">*2</Link></sup>をやっていました。</p>
         </section>
 
         <section id="interests">
           <h3>Interests</h3>
           <ul>
-            <li>情報と人間の関わり、そのあり方</li>
             <li>情報インフラとしての図書館</li>
             <li>組織内における情報伝達</li>
+            <li>システムはいかにして情報要求を満たすか</li>
             <li>デカい情報、デカい経済</li>
           </ul>
           <p>具体的には：</p>
           <ul>
             <li>図書館情報学</li>
             <li>情報組織化</li>
-            <li>索引</li>
-            <li>分類</li>
+            <li>分類・索引</li>
             <li>情報検索</li>
-            <li>情報行動</li>               
-            <li>知識論（認識論）</li>
-            <li>メディア論</li>
+            <li>情報行動</li>          
           </ul>
-          <p>ちょっぴり興味<sup><Link href="#note5" className="note-link">*5</Link></sup>：</p>
+          <p>ちょっぴり興味</p>
           <ul>
-            <li>人文情報学</li>
             <li>機械学習</li>
             <li>大規模言語モデル</li>
-            <li>存在論</li>
-            <li>広告コミュニケーション</li>
+            <li>広告コミュニケーション（特に広告コピー）</li>
             <li>セキュリティ</li>
           </ul>
         </section>
@@ -55,14 +50,11 @@ export default function Home() {
         <section id="likes">
           <h3>Likes</h3>
           <ul>
-            <li>ぼっち・ざ・ろっく！<sup><Link href="#note6" className="note-link">*6</Link></sup></li>
+            <li>ぼっち・ざ・ろっく！<sup><Link href="#note4" className="note-link">*3</Link></sup></li>
             <li>涼宮ハルヒの憂鬱</li>
             <li>カメラ</li>
             <li>ミュージアム</li>
             <li>図書館</li>
-            <li>ラーメン</li>
-            <li>スイーツ</li>
-            <li>コーヒー</li>
           </ul>
         </section>
 
@@ -77,12 +69,9 @@ export default function Home() {
 
         <section id="notes">
           <h4>Notes</h4>
-          <p><small id="note1">*1 筑波大学クイズ研究会</small></p>
-          <p><small id="note2">*2 筑波大学現代視覚文化研究会 アーカイブ班</small></p>
-          <p><small id="note3">*3 筑波大学学園祭『雙峰祭』</small></p>
-          <p><small id="note4">*4 筑波大学学園祭実行委員会 本部企画局</small></p>
-          <p><small id="note5">*5 かなり何も知らない</small></p>
-          <p><small id="note6">*6 特に伊地知虹夏さん</small></p>
+          <p><small id="note1">*1 筑波大学学園祭『雙峰祭』</small></p>
+          <p><small id="note2">*2 筑波大学学園祭実行委員会 本部企画局</small></p>
+          <p><small id="note3">*3 特に伊地知虹夏さん</small></p>
         </section>
 
         <div className="contact-icons">
