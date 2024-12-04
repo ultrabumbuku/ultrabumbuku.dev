@@ -50,7 +50,7 @@ export default function Home() {
         <section id="likes">
           <h3>Likes</h3>
           <ul>
-            <li>ぼっち・ざ・ろっく！<sup><Link href="#note4" className="note-link">*3</Link></sup></li>
+            <li>ぼっち・ざ・ろっく！<sup><Link href="#note3" className="note-link">*3</Link></sup></li>
             <li>涼宮ハルヒの憂鬱</li>
             <li>カメラ</li>
             <li>ミュージアム</li>
