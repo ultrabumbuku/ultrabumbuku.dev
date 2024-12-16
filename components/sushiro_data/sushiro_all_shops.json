@@ -1,0 +1,3477 @@
+[
+  {
+    "prefecture_id": 1,
+    "name": "旭川永山店",
+    "url": "menu_detail/?s_id=509"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "旭川4条通店",
+    "url": "menu_detail/?s_id=653"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "江別店",
+    "url": "menu_detail/?s_id=396"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "帯広店",
+    "url": "menu_detail/?s_id=394"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "北見店",
+    "url": "menu_detail/?s_id=697"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "札幌北44条東店",
+    "url": "menu_detail/?s_id=1009"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "札幌清田店",
+    "url": "menu_detail/?s_id=540"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "札幌白石店",
+    "url": "menu_detail/?s_id=390"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "札幌苗穂店",
+    "url": "menu_detail/?s_id=651"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "札幌発寒店",
+    "url": "menu_detail/?s_id=693"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "札幌パルコ店",
+    "url": "menu_detail/?s_id=883"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "札幌山の手店",
+    "url": "menu_detail/?s_id=566"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "豊平西岡店",
+    "url": "menu_detail/?s_id=370"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "千歳店",
+    "url": "menu_detail/?s_id=686"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "苫小牧店",
+    "url": "menu_detail/?s_id=378"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "函館美原店",
+    "url": "menu_detail/?s_id=554"
+  },
+  {
+    "prefecture_id": 1,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 2,
+    "name": "青森観光通り店",
+    "url": "menu_detail/?s_id=565"
+  },
+  {
+    "prefecture_id": 2,
+    "name": "青森黒石店",
+    "url": "menu_detail/?s_id=647"
+  },
+  {
+    "prefecture_id": 2,
+    "name": "八戸店",
+    "url": "menu_detail/?s_id=542"
+  },
+  {
+    "prefecture_id": 2,
+    "name": "弘前さくら野SC店",
+    "url": "menu_detail/?s_id=569"
+  },
+  {
+    "prefecture_id": 2,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 3,
+    "name": "一関中里店",
+    "url": "menu_detail/?s_id=223"
+  },
+  {
+    "prefecture_id": 3,
+    "name": "北上店",
+    "url": "menu_detail/?s_id=214"
+  },
+  {
+    "prefecture_id": 3,
+    "name": "盛岡高松店",
+    "url": "menu_detail/?s_id=580"
+  },
+  {
+    "prefecture_id": 3,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 4,
+    "name": "石巻店",
+    "url": "menu_detail/?s_id=188"
+  },
+  {
+    "prefecture_id": 4,
+    "name": "アクロスプラザ幸町店",
+    "url": "menu_detail/?s_id=893"
+  },
+  {
+    "prefecture_id": 4,
+    "name": "あすと長町店",
+    "url": "menu_detail/?s_id=374"
+  },
+  {
+    "prefecture_id": 4,
+    "name": "仙台一番町店",
+    "url": "menu_detail/?s_id=892"
+  },
+  {
+    "prefecture_id": 4,
+    "name": "仙台中山店",
+    "url": "menu_detail/?s_id=512"
+  },
+  {
+    "prefecture_id": 4,
+    "name": "仙台松森店",
+    "url": "menu_detail/?s_id=547"
+  },
+  {
+    "prefecture_id": 4,
+    "name": "イオン多賀城店",
+    "url": "menu_detail/?s_id=562"
+  },
+  {
+    "prefecture_id": 4,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 5,
+    "name": "秋田茨島店",
+    "url": "menu_detail/?s_id=532"
+  },
+  {
+    "prefecture_id": 5,
+    "name": "大館店",
+    "url": "menu_detail/?s_id=212"
+  },
+  {
+    "prefecture_id": 5,
+    "name": "横手店",
+    "url": "menu_detail/?s_id=648"
+  },
+  {
+    "prefecture_id": 5,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 6,
+    "name": "天童店",
+    "url": "menu_detail/?s_id=526"
+  },
+  {
+    "prefecture_id": 6,
+    "name": "山形北店",
+    "url": "menu_detail/?s_id=195"
+  },
+  {
+    "prefecture_id": 6,
+    "name": "山形南店",
+    "url": "menu_detail/?s_id=209"
+  },
+  {
+    "prefecture_id": 6,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 7,
+    "name": "会津若松店",
+    "url": "menu_detail/?s_id=639"
+  },
+  {
+    "prefecture_id": 7,
+    "name": "いわき鹿島店",
+    "url": "menu_detail/?s_id=213"
+  },
+  {
+    "prefecture_id": 7,
+    "name": "いわき平店",
+    "url": "menu_detail/?s_id=222"
+  },
+  {
+    "prefecture_id": 7,
+    "name": "郡山桑野店",
+    "url": "menu_detail/?s_id=654"
+  },
+  {
+    "prefecture_id": 7,
+    "name": "須賀川店",
+    "url": "menu_detail/?s_id=596"
+  },
+  {
+    "prefecture_id": 7,
+    "name": "福島旭町店",
+    "url": "menu_detail/?s_id=628"
+  },
+  {
+    "prefecture_id": 7,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "石岡店",
+    "url": "menu_detail/?s_id=624"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "牛久田宮店",
+    "url": "menu_detail/?s_id=501"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "茨城鹿嶋店",
+    "url": "menu_detail/?s_id=641"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "神栖店",
+    "url": "menu_detail/?s_id=99"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "筑西玉戸店",
+    "url": "menu_detail/?s_id=333"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "つくば学園の森店",
+    "url": "menu_detail/?s_id=528"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "土浦店",
+    "url": "menu_detail/?s_id=147"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "茨城那珂店",
+    "url": "menu_detail/?s_id=586"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "日立諏訪店",
+    "url": "menu_detail/?s_id=579"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "ひたちなか店",
+    "url": "menu_detail/?s_id=106"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "水戸東原店",
+    "url": "menu_detail/?s_id=551"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "守谷店",
+    "url": "menu_detail/?s_id=145"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "龍ケ崎店",
+    "url": "menu_detail/?s_id=503"
+  },
+  {
+    "prefecture_id": 8,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 9,
+    "name": "足利店",
+    "url": "menu_detail/?s_id=224"
+  },
+  {
+    "prefecture_id": 9,
+    "name": "宇都宮今泉店",
+    "url": "menu_detail/?s_id=79"
+  },
+  {
+    "prefecture_id": 9,
+    "name": "宇都宮鶴田店",
+    "url": "menu_detail/?s_id=200"
+  },
+  {
+    "prefecture_id": 9,
+    "name": "大田原店",
+    "url": "menu_detail/?s_id=701"
+  },
+  {
+    "prefecture_id": 9,
+    "name": "小山店",
+    "url": "menu_detail/?s_id=70"
+  },
+  {
+    "prefecture_id": 9,
+    "name": "佐野大橋店",
+    "url": "menu_detail/?s_id=559"
+  },
+  {
+    "prefecture_id": 9,
+    "name": "栃木箱森町店",
+    "url": "menu_detail/?s_id=595"
+  },
+  {
+    "prefecture_id": 9,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 10,
+    "name": "伊勢崎店",
+    "url": "menu_detail/?s_id=65"
+  },
+  {
+    "prefecture_id": 10,
+    "name": "群馬吉岡店",
+    "url": "menu_detail/?s_id=205"
+  },
+  {
+    "prefecture_id": 10,
+    "name": "高崎飯塚店",
+    "url": "menu_detail/?s_id=507"
+  },
+  {
+    "prefecture_id": 10,
+    "name": "高崎南店",
+    "url": "menu_detail/?s_id=123"
+  },
+  {
+    "prefecture_id": 10,
+    "name": "前橋天川大島店",
+    "url": "menu_detail/?s_id=695"
+  },
+  {
+    "prefecture_id": 10,
+    "name": "アクロスプラザ笠懸店",
+    "url": "menu_detail/?s_id=611"
+  },
+  {
+    "prefecture_id": 10,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "上尾駅前店",
+    "url": "menu_detail/?s_id=650"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "朝霞台店",
+    "url": "menu_detail/?s_id=365"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "三芳店",
+    "url": "menu_detail/?s_id=527"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "入間上藤沢店",
+    "url": "menu_detail/?s_id=649"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "春日部店",
+    "url": "menu_detail/?s_id=590"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "川口駅前店",
+    "url": "menu_detail/?s_id=848"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "川口芝店",
+    "url": "menu_detail/?s_id=363"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "川越店",
+    "url": "menu_detail/?s_id=235"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "川越インター店",
+    "url": "menu_detail/?s_id=625"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "北本店",
+    "url": "menu_detail/?s_id=162"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "行田店",
+    "url": "menu_detail/?s_id=218"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "越谷レイクタウン店",
+    "url": "menu_detail/?s_id=671"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "南越谷店",
+    "url": "menu_detail/?s_id=630"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "岩槻店",
+    "url": "menu_detail/?s_id=544"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "浦和中尾店",
+    "url": "menu_detail/?s_id=591"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "浦和美園店",
+    "url": "menu_detail/?s_id=157"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "大宮店",
+    "url": "menu_detail/?s_id=177"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "大宮アルシェ店",
+    "url": "menu_detail/?s_id=889"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "さいたま中央店",
+    "url": "menu_detail/?s_id=515"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "さいたま西堀店",
+    "url": "menu_detail/?s_id=1011"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "さいたま宮前店",
+    "url": "menu_detail/?s_id=328"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "ステラタウン店",
+    "url": "menu_detail/?s_id=303"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "幸手店",
+    "url": "menu_detail/?s_id=243"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "新狭山店",
+    "url": "menu_detail/?s_id=627"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "白岡店",
+    "url": "menu_detail/?s_id=588"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "草加店",
+    "url": "menu_detail/?s_id=59"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "鶴ヶ島店",
+    "url": "menu_detail/?s_id=676"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "所沢北原店",
+    "url": "menu_detail/?s_id=663"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "戸田店",
+    "url": "menu_detail/?s_id=567"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "羽生店",
+    "url": "menu_detail/?s_id=657"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "滑川店",
+    "url": "menu_detail/?s_id=166"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "深谷店",
+    "url": "menu_detail/?s_id=1008"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "本庄早稲田店",
+    "url": "menu_detail/?s_id=341"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "三郷彦糸店",
+    "url": "menu_detail/?s_id=344"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "和光白子店",
+    "url": "menu_detail/?s_id=54"
+  },
+  {
+    "prefecture_id": 11,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "旭店",
+    "url": "menu_detail/?s_id=175"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "我孫子店",
+    "url": "menu_detail/?s_id=321"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "イオン市川妙典店",
+    "url": "menu_detail/?s_id=616"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "市川駅前店",
+    "url": "menu_detail/?s_id=898"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "行徳駅前店",
+    "url": "menu_detail/?s_id=896"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "南行徳店",
+    "url": "menu_detail/?s_id=113"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "本八幡北口店",
+    "url": "menu_detail/?s_id=577"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "市原店",
+    "url": "menu_detail/?s_id=269"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "千葉ニュータウン店",
+    "url": "menu_detail/?s_id=502"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "フォルテ新浦安店",
+    "url": "menu_detail/?s_id=886"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "柏店",
+    "url": "menu_detail/?s_id=51"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "鴨川店",
+    "url": "menu_detail/?s_id=578"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "木更津店",
+    "url": "menu_detail/?s_id=109"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "君津店",
+    "url": "menu_detail/?s_id=570"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "勝田台店",
+    "url": "menu_detail/?s_id=60"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "佐倉寺崎北店",
+    "url": "menu_detail/?s_id=525"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "白井店\r\n（12/10(火)～12/19(木) リニューアル休業）",
+    "url": "menu_detail/?s_id=534"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "館山店",
+    "url": "menu_detail/?s_id=274"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "稲毛園生店",
+    "url": "menu_detail/?s_id=568"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "おゆみ野店",
+    "url": "menu_detail/?s_id=343"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "海浜幕張店",
+    "url": "menu_detail/?s_id=545"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "千葉中央店",
+    "url": "menu_detail/?s_id=608"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "千葉寺店",
+    "url": "menu_detail/?s_id=55"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "千葉みなと店",
+    "url": "menu_detail/?s_id=546"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "花見川店",
+    "url": "menu_detail/?s_id=105"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "幕張店",
+    "url": "menu_detail/?s_id=48"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "若葉桜木店",
+    "url": "menu_detail/?s_id=69"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "東金店",
+    "url": "menu_detail/?s_id=136"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "富里店",
+    "url": "menu_detail/?s_id=519"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "南流山店",
+    "url": "menu_detail/?s_id=372"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "ロハル津田沼店",
+    "url": "menu_detail/?s_id=665"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "成田店",
+    "url": "menu_detail/?s_id=64"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "ウニクス野田店",
+    "url": "menu_detail/?s_id=517"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "夏見台店",
+    "url": "menu_detail/?s_id=366"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "船橋店",
+    "url": "menu_detail/?s_id=44"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "船橋高根木戸店",
+    "url": "menu_detail/?s_id=574"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "高塚新田店",
+    "url": "menu_detail/?s_id=73"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "松戸五香店",
+    "url": "menu_detail/?s_id=602"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "松戸八ケ崎店",
+    "url": "menu_detail/?s_id=144"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "茂原店",
+    "url": "menu_detail/?s_id=160"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "八千代高津店",
+    "url": "menu_detail/?s_id=531"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "四街道店",
+    "url": "menu_detail/?s_id=529"
+  },
+  {
+    "prefecture_id": 12,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "昭島店",
+    "url": "menu_detail/?s_id=617"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "足立保木間店",
+    "url": "menu_detail/?s_id=110"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "環七青井店",
+    "url": "menu_detail/?s_id=342"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "竹の塚ピーくんプラザ店",
+    "url": "menu_detail/?s_id=349"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "日暮里店",
+    "url": "menu_detail/?s_id=894"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "町屋駅前店",
+    "url": "menu_detail/?s_id=884"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "稲城百村店",
+    "url": "menu_detail/?s_id=571"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "一之江店",
+    "url": "menu_detail/?s_id=170"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "葛西駅前店",
+    "url": "menu_detail/?s_id=865"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "北葛西店",
+    "url": "menu_detail/?s_id=91"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "南葛西店",
+    "url": "menu_detail/?s_id=72"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "大森駅前店",
+    "url": "menu_detail/?s_id=844"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "葛飾店",
+    "url": "menu_detail/?s_id=43"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "新小岩店",
+    "url": "menu_detail/?s_id=899"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "南砂店",
+    "url": "menu_detail/?s_id=98"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "イトーヨーカドー武蔵小金井店",
+    "url": "menu_detail/?s_id=607"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "国分寺店",
+    "url": "menu_detail/?s_id=615"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "小平天神町店",
+    "url": "menu_detail/?s_id=1010"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "五反田店",
+    "url": "menu_detail/?s_id=842"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "渋谷駅前店",
+    "url": "menu_detail/?s_id=872"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "神楽坂店",
+    "url": "menu_detail/?s_id=878"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "新宿三丁目店",
+    "url": "menu_detail/?s_id=869"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "新宿西口店\r\n（カウンター席は通常タッチパネルとなります）",
+    "url": "menu_detail/?s_id=879"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "新宿東口店",
+    "url": "menu_detail/?s_id=876"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "BIGBOX高田馬場店",
+    "url": "menu_detail/?s_id=846"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "荻窪店",
+    "url": "menu_detail/?s_id=845"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "浅草吾妻橋店",
+    "url": "menu_detail/?s_id=854"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "烏山店",
+    "url": "menu_detail/?s_id=164"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "経堂店",
+    "url": "menu_detail/?s_id=868"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "浅草六区店",
+    "url": "menu_detail/?s_id=873"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "上野店",
+    "url": "menu_detail/?s_id=843"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "立川駅北口店",
+    "url": "menu_detail/?s_id=851"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "立川駅南口店",
+    "url": "menu_detail/?s_id=847"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "立川幸町店",
+    "url": "menu_detail/?s_id=539"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "多摩センター店",
+    "url": "menu_detail/?s_id=631"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "ヤエチカ店",
+    "url": "menu_detail/?s_id=874"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "調布店",
+    "url": "menu_detail/?s_id=257"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "秋葉原駅前店",
+    "url": "menu_detail/?s_id=849"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "有楽町店",
+    "url": "menu_detail/?s_id=858"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "池袋駅東口店",
+    "url": "menu_detail/?s_id=859"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "南池袋店",
+    "url": "menu_detail/?s_id=841"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "方南町店",
+    "url": "menu_detail/?s_id=871"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "田無店",
+    "url": "menu_detail/?s_id=62"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "練馬関町店",
+    "url": "menu_detail/?s_id=638"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "光が丘店",
+    "url": "menu_detail/?s_id=890"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "ぐりーんうぉーく多摩店",
+    "url": "menu_detail/?s_id=167"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "楢原店",
+    "url": "menu_detail/?s_id=180"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "八王子駅前店",
+    "url": "menu_detail/?s_id=666"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "八王子長沼店",
+    "url": "menu_detail/?s_id=140"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "羽村SAKURA MALL店",
+    "url": "menu_detail/?s_id=610"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "東村山店",
+    "url": "menu_detail/?s_id=594"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "日野バイパス店",
+    "url": "menu_detail/?s_id=95"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "東府中店",
+    "url": "menu_detail/?s_id=120"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "府中くるる店",
+    "url": "menu_detail/?s_id=680"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "府中西原町店",
+    "url": "menu_detail/?s_id=640"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "MINANO分倍河原店",
+    "url": "menu_detail/?s_id=619"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "福生店",
+    "url": "menu_detail/?s_id=42"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "多摩境店",
+    "url": "menu_detail/?s_id=130"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "町田木曽店",
+    "url": "menu_detail/?s_id=306"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "町田北口店",
+    "url": "menu_detail/?s_id=553"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "町田鶴間店",
+    "url": "menu_detail/?s_id=606"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "吉祥寺パルコ店",
+    "url": "menu_detail/?s_id=867"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "武蔵村山店",
+    "url": "menu_detail/?s_id=90"
+  },
+  {
+    "prefecture_id": 13,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "厚木及川店",
+    "url": "menu_detail/?s_id=1006"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "伊勢原店",
+    "url": "menu_detail/?s_id=305"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "海老名店",
+    "url": "menu_detail/?s_id=510"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "さがみ野店",
+    "url": "menu_detail/?s_id=133"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "小田原店\r\n（12/10(火)～12/19(木) リニューアル休業）",
+    "url": "menu_detail/?s_id=356"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "鎌倉店",
+    "url": "menu_detail/?s_id=240"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "川崎駅前店　※12/19(木)オープン予定",
+    "url": "menu_detail/?s_id=1016"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "川崎小田栄店",
+    "url": "menu_detail/?s_id=895"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "川崎子母口店",
+    "url": "menu_detail/?s_id=887"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "川崎ゼロゲート店",
+    "url": "menu_detail/?s_id=620"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "川崎第一京浜店",
+    "url": "menu_detail/?s_id=119"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "川崎野川店",
+    "url": "menu_detail/?s_id=124"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "川崎水沢店",
+    "url": "menu_detail/?s_id=315"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "川崎南幸町店",
+    "url": "menu_detail/?s_id=643"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "新川崎スクエア店",
+    "url": "menu_detail/?s_id=382"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "ミューザ川崎店",
+    "url": "menu_detail/?s_id=281"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "武蔵小杉店",
+    "url": "menu_detail/?s_id=891"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "上鶴間店",
+    "url": "menu_detail/?s_id=49"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "相模大野ジョイモアーズ店",
+    "url": "menu_detail/?s_id=543"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "相模原中央店",
+    "url": "menu_detail/?s_id=583"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "相模原橋本店",
+    "url": "menu_detail/?s_id=522"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "座間立野台店",
+    "url": "menu_detail/?s_id=681"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "茅ヶ崎高田店",
+    "url": "menu_detail/?s_id=203"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "茅ヶ崎萩園店",
+    "url": "menu_detail/?s_id=659"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "平塚店",
+    "url": "menu_detail/?s_id=255"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "OSC湘南シティ店",
+    "url": "menu_detail/?s_id=319"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "湘南台駅前店",
+    "url": "menu_detail/?s_id=683"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "藤沢大庭店",
+    "url": "menu_detail/?s_id=149"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "三浦海岸店",
+    "url": "menu_detail/?s_id=134"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "大和店",
+    "url": "menu_detail/?s_id=302"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "浦賀店",
+    "url": "menu_detail/?s_id=68"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "コースカ横須賀店",
+    "url": "menu_detail/?s_id=355"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "青葉台駅前店",
+    "url": "menu_detail/?s_id=880"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "あざみ野ガーデンズ店",
+    "url": "menu_detail/?s_id=347"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "イオン天王町店",
+    "url": "menu_detail/?s_id=885"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "金沢八景店",
+    "url": "menu_detail/?s_id=379"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "港南台店",
+    "url": "menu_detail/?s_id=311"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "港北ニュータウン店",
+    "url": "menu_detail/?s_id=253"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "新横浜店",
+    "url": "menu_detail/?s_id=338"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "瀬谷店",
+    "url": "menu_detail/?s_id=61"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "鶴見駅西口店",
+    "url": "menu_detail/?s_id=658"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "鶴見東寺尾店",
+    "url": "menu_detail/?s_id=642"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "戸塚駅前店",
+    "url": "menu_detail/?s_id=359"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "長津田みなみ台店",
+    "url": "menu_detail/?s_id=670"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "東神奈川店",
+    "url": "menu_detail/?s_id=47"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "東戸塚店",
+    "url": "menu_detail/?s_id=262"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "ブランチ横浜南部市場店",
+    "url": "menu_detail/?s_id=660"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "横浜鶴見店",
+    "url": "menu_detail/?s_id=186"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "横浜鶴屋町店",
+    "url": "menu_detail/?s_id=897"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "横浜戸塚店",
+    "url": "menu_detail/?s_id=138"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "横浜中田町店",
+    "url": "menu_detail/?s_id=689"
+  },
+  {
+    "prefecture_id": 14,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 15,
+    "name": "リナシエ喜多町店",
+    "url": "menu_detail/?s_id=516"
+  },
+  {
+    "prefecture_id": 15,
+    "name": "新潟赤道店",
+    "url": "menu_detail/?s_id=388"
+  },
+  {
+    "prefecture_id": 15,
+    "name": "新潟小新店",
+    "url": "menu_detail/?s_id=387"
+  },
+  {
+    "prefecture_id": 15,
+    "name": "新潟女池店",
+    "url": "menu_detail/?s_id=369"
+  },
+  {
+    "prefecture_id": 15,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 16,
+    "name": "魚津店",
+    "url": "menu_detail/?s_id=521"
+  },
+  {
+    "prefecture_id": 16,
+    "name": "高岡店",
+    "url": "menu_detail/?s_id=505"
+  },
+  {
+    "prefecture_id": 16,
+    "name": "砺波店",
+    "url": "menu_detail/?s_id=669"
+  },
+  {
+    "prefecture_id": 16,
+    "name": "富山呉羽店",
+    "url": "menu_detail/?s_id=242"
+  },
+  {
+    "prefecture_id": 16,
+    "name": "富山太郎丸店",
+    "url": "menu_detail/?s_id=700"
+  },
+  {
+    "prefecture_id": 16,
+    "name": "富山中川原店",
+    "url": "menu_detail/?s_id=614"
+  },
+  {
+    "prefecture_id": 16,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 17,
+    "name": "金沢有松店",
+    "url": "menu_detail/?s_id=191"
+  },
+  {
+    "prefecture_id": 17,
+    "name": "金沢駅西店",
+    "url": "menu_detail/?s_id=632"
+  },
+  {
+    "prefecture_id": 17,
+    "name": "小松有明店",
+    "url": "menu_detail/?s_id=208"
+  },
+  {
+    "prefecture_id": 17,
+    "name": "野々市店",
+    "url": "menu_detail/?s_id=192"
+  },
+  {
+    "prefecture_id": 17,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 18,
+    "name": "春江店",
+    "url": "menu_detail/?s_id=536"
+  },
+  {
+    "prefecture_id": 18,
+    "name": "鯖江店",
+    "url": "menu_detail/?s_id=560"
+  },
+  {
+    "prefecture_id": 18,
+    "name": "敦賀店",
+    "url": "menu_detail/?s_id=687"
+  },
+  {
+    "prefecture_id": 18,
+    "name": "福井米松店",
+    "url": "menu_detail/?s_id=386"
+  },
+  {
+    "prefecture_id": 18,
+    "name": "福井若杉店",
+    "url": "menu_detail/?s_id=329"
+  },
+  {
+    "prefecture_id": 18,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 19,
+    "name": "甲府アルプス通り店",
+    "url": "menu_detail/?s_id=357"
+  },
+  {
+    "prefecture_id": 19,
+    "name": "甲府東店",
+    "url": "menu_detail/?s_id=88"
+  },
+  {
+    "prefecture_id": 19,
+    "name": "甲府昭和店",
+    "url": "menu_detail/?s_id=1001"
+  },
+  {
+    "prefecture_id": 19,
+    "name": "河口湖BELL店",
+    "url": "menu_detail/?s_id=592"
+  },
+  {
+    "prefecture_id": 19,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 20,
+    "name": "安曇野穂高店",
+    "url": "menu_detail/?s_id=573"
+  },
+  {
+    "prefecture_id": 20,
+    "name": "イオン飯田アップルロード店",
+    "url": "menu_detail/?s_id=600"
+  },
+  {
+    "prefecture_id": 20,
+    "name": "伊那店",
+    "url": "menu_detail/?s_id=593"
+  },
+  {
+    "prefecture_id": 20,
+    "name": "上田店",
+    "url": "menu_detail/?s_id=380"
+  },
+  {
+    "prefecture_id": 20,
+    "name": "佐久平店",
+    "url": "menu_detail/?s_id=100"
+  },
+  {
+    "prefecture_id": 20,
+    "name": "塩尻店",
+    "url": "menu_detail/?s_id=169"
+  },
+  {
+    "prefecture_id": 20,
+    "name": "諏訪店",
+    "url": "menu_detail/?s_id=230"
+  },
+  {
+    "prefecture_id": 20,
+    "name": "長野川中島店",
+    "url": "menu_detail/?s_id=291"
+  },
+  {
+    "prefecture_id": 20,
+    "name": "長野若宮店",
+    "url": "menu_detail/?s_id=581"
+  },
+  {
+    "prefecture_id": 20,
+    "name": "松本筑摩店",
+    "url": "menu_detail/?s_id=506"
+  },
+  {
+    "prefecture_id": 20,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "大垣店",
+    "url": "menu_detail/?s_id=86"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "大垣中野町店",
+    "url": "menu_detail/?s_id=272"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "各務原那加店",
+    "url": "menu_detail/?s_id=236"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "可児店",
+    "url": "menu_detail/?s_id=96"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "岐阜石長店",
+    "url": "menu_detail/?s_id=555"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "岐阜市橋店",
+    "url": "menu_detail/?s_id=249"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "岐阜正木店",
+    "url": "menu_detail/?s_id=292"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "関マーゴ店",
+    "url": "menu_detail/?s_id=576"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "多治見店",
+    "url": "menu_detail/?s_id=182"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "土岐店",
+    "url": "menu_detail/?s_id=682"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "岐阜羽島店",
+    "url": "menu_detail/?s_id=104"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "中津川店",
+    "url": "menu_detail/?s_id=533"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "北方店",
+    "url": "menu_detail/?s_id=520"
+  },
+  {
+    "prefecture_id": 21,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "磐田店",
+    "url": "menu_detail/?s_id=141"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "掛川店",
+    "url": "menu_detail/?s_id=548"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "御殿場店",
+    "url": "menu_detail/?s_id=629"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "静岡有明店",
+    "url": "menu_detail/?s_id=131"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "東静岡店",
+    "url": "menu_detail/?s_id=137"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "沼津店",
+    "url": "menu_detail/?s_id=163"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "浜北インター店",
+    "url": "menu_detail/?s_id=397"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "浜松入野店",
+    "url": "menu_detail/?s_id=677"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "浜松北島店",
+    "url": "menu_detail/?s_id=84"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "浜松幸店",
+    "url": "menu_detail/?s_id=82"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "浜松西丘店",
+    "url": "menu_detail/?s_id=87"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "藤枝店",
+    "url": "menu_detail/?s_id=171"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "富士高島店",
+    "url": "menu_detail/?s_id=227"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "富士宮店",
+    "url": "menu_detail/?s_id=148"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "三島梅名店",
+    "url": "menu_detail/?s_id=612"
+  },
+  {
+    "prefecture_id": 22,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "甚目寺店",
+    "url": "menu_detail/?s_id=1004"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "蟹江店",
+    "url": "menu_detail/?s_id=76"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "安城東栄町店",
+    "url": "menu_detail/?s_id=698"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "三河安城店",
+    "url": "menu_detail/?s_id=330"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "一宮浅野店",
+    "url": "menu_detail/?s_id=173"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "一宮尾西店",
+    "url": "menu_detail/?s_id=161"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "稲沢一色店",
+    "url": "menu_detail/?s_id=361"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "稲沢小池店",
+    "url": "menu_detail/?s_id=260"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "大府店",
+    "url": "menu_detail/?s_id=194"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "岡崎岩津店",
+    "url": "menu_detail/?s_id=373"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "岡崎上和田店",
+    "url": "menu_detail/?s_id=358"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "岡崎竜美丘店",
+    "url": "menu_detail/?s_id=238"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "春日井春見店",
+    "url": "menu_detail/?s_id=215"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "蒲郡店",
+    "url": "menu_detail/?s_id=284"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "北名古屋店",
+    "url": "menu_detail/?s_id=181"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "清須古城店",
+    "url": "menu_detail/?s_id=247"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "江南店",
+    "url": "menu_detail/?s_id=143"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "小牧北外山店",
+    "url": "menu_detail/?s_id=258"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "瀬戸店",
+    "url": "menu_detail/?s_id=229"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "高浜店",
+    "url": "menu_detail/?s_id=589"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "知立店",
+    "url": "menu_detail/?s_id=259"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "津島店",
+    "url": "menu_detail/?s_id=142"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "東海店",
+    "url": "menu_detail/?s_id=204"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "常滑店",
+    "url": "menu_detail/?s_id=216"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "豊明前後店",
+    "url": "menu_detail/?s_id=277"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "豊川店",
+    "url": "menu_detail/?s_id=66"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "豊田インター店",
+    "url": "menu_detail/?s_id=246"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "豊田広久手店",
+    "url": "menu_detail/?s_id=132"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "豊橋磯辺店",
+    "url": "menu_detail/?s_id=244"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "豊橋新栄店",
+    "url": "menu_detail/?s_id=179"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "豊橋西口店",
+    "url": "menu_detail/?s_id=178"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "長久手店",
+    "url": "menu_detail/?s_id=364"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "アスナル金山店",
+    "url": "menu_detail/?s_id=852"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "熱田店",
+    "url": "menu_detail/?s_id=524"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "栄店",
+    "url": "menu_detail/?s_id=1015"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "志段味店",
+    "url": "menu_detail/?s_id=582"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "そよら上飯田店",
+    "url": "menu_detail/?s_id=621"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "太閤通店",
+    "url": "menu_detail/?s_id=53"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "大同店",
+    "url": "menu_detail/?s_id=85"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "天白焼山店\r\n（カウンター席は通常タッチパネルとなります）",
+    "url": "menu_detail/?s_id=584"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "名古屋新栄店",
+    "url": "menu_detail/?s_id=561"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "名古屋茶屋が坂店",
+    "url": "menu_detail/?s_id=613"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "鳴海店",
+    "url": "menu_detail/?s_id=139"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "緑滝ノ水店",
+    "url": "menu_detail/?s_id=652"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "森孝店",
+    "url": "menu_detail/?s_id=74"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "西尾店",
+    "url": "menu_detail/?s_id=125"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "扶桑店",
+    "url": "menu_detail/?s_id=153"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "半田店",
+    "url": "menu_detail/?s_id=312"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "イオンタウン弥富店",
+    "url": "menu_detail/?s_id=287"
+  },
+  {
+    "prefecture_id": 23,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "伊賀上野店",
+    "url": "menu_detail/?s_id=469"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "伊勢御薗店",
+    "url": "menu_detail/?s_id=135"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "桑名店",
+    "url": "menu_detail/?s_id=159"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "鈴鹿店",
+    "url": "menu_detail/?s_id=466"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "鈴鹿西店",
+    "url": "menu_detail/?s_id=172"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "津大倉店",
+    "url": "menu_detail/?s_id=126"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "津白塚店",
+    "url": "menu_detail/?s_id=154"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "名張店",
+    "url": "menu_detail/?s_id=605"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "松阪店",
+    "url": "menu_detail/?s_id=67"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "三重川越店",
+    "url": "menu_detail/?s_id=189"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "日永カヨー店",
+    "url": "menu_detail/?s_id=465"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "四日市インター店",
+    "url": "menu_detail/?s_id=376"
+  },
+  {
+    "prefecture_id": 24,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 25,
+    "name": "近江八幡店",
+    "url": "menu_detail/?s_id=462"
+  },
+  {
+    "prefecture_id": 25,
+    "name": "大津堅田店",
+    "url": "menu_detail/?s_id=155"
+  },
+  {
+    "prefecture_id": 25,
+    "name": "瀬田店\r\n（11/25(月)～12/19(木) リニューアル休業）",
+    "url": "menu_detail/?s_id=467"
+  },
+  {
+    "prefecture_id": 25,
+    "name": "西大津店",
+    "url": "menu_detail/?s_id=550"
+  },
+  {
+    "prefecture_id": 25,
+    "name": "水口店",
+    "url": "menu_detail/?s_id=103"
+  },
+  {
+    "prefecture_id": 25,
+    "name": "長浜店",
+    "url": "menu_detail/?s_id=464"
+  },
+  {
+    "prefecture_id": 25,
+    "name": "彦根安食店",
+    "url": "menu_detail/?s_id=459"
+  },
+  {
+    "prefecture_id": 25,
+    "name": "彦根外町店",
+    "url": "menu_detail/?s_id=297"
+  },
+  {
+    "prefecture_id": 25,
+    "name": "守山店",
+    "url": "menu_detail/?s_id=383"
+  },
+  {
+    "prefecture_id": 25,
+    "name": "栗東小柿店",
+    "url": "menu_detail/?s_id=449"
+  },
+  {
+    "prefecture_id": 25,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "宇治槇島店",
+    "url": "menu_detail/?s_id=1002"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "亀岡店",
+    "url": "menu_detail/?s_id=436"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "京丹後店",
+    "url": "menu_detail/?s_id=183"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "河原町蛸薬師通り店",
+    "url": "menu_detail/?s_id=853"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "京都桂店",
+    "url": "menu_detail/?s_id=424"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "京都祇園店",
+    "url": "menu_detail/?s_id=1014"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "京都西院店",
+    "url": "menu_detail/?s_id=664"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "京都伏見店",
+    "url": "menu_detail/?s_id=368"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "五条七本松店",
+    "url": "menu_detail/?s_id=470"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "山科店",
+    "url": "menu_detail/?s_id=455"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "城陽店",
+    "url": "menu_detail/?s_id=446"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "精華町店",
+    "url": "menu_detail/?s_id=117"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "福知山店",
+    "url": "menu_detail/?s_id=444"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "舞鶴店",
+    "url": "menu_detail/?s_id=174"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "向日町駅前店",
+    "url": "menu_detail/?s_id=672"
+  },
+  {
+    "prefecture_id": 26,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "池田店",
+    "url": "menu_detail/?s_id=22"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "和泉府中店",
+    "url": "menu_detail/?s_id=339"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "泉佐野店",
+    "url": "menu_detail/?s_id=440"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "和泉中央店",
+    "url": "menu_detail/?s_id=443"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "沢良宜店",
+    "url": "menu_detail/?s_id=437"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "赤川店",
+    "url": "menu_detail/?s_id=452"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "歌島店",
+    "url": "menu_detail/?s_id=413"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "梅田茶屋町店",
+    "url": "menu_detail/?s_id=870"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "お初天神通り店",
+    "url": "menu_detail/?s_id=875"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "木川東店",
+    "url": "menu_detail/?s_id=1003"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "北加賀屋店",
+    "url": "menu_detail/?s_id=40"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "杭全店",
+    "url": "menu_detail/?s_id=442"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "心斎橋店",
+    "url": "menu_detail/?s_id=860"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "関目店",
+    "url": "menu_detail/?s_id=456"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "大正店",
+    "url": "menu_detail/?s_id=439"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "辰巳橋店",
+    "url": "menu_detail/?s_id=431"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "鶴見店",
+    "url": "menu_detail/?s_id=460"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "天神橋5丁目店",
+    "url": "menu_detail/?s_id=850"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "天王寺店",
+    "url": "menu_detail/?s_id=866"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "長吉長原店",
+    "url": "menu_detail/?s_id=457"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "難波アムザ店",
+    "url": "menu_detail/?s_id=856"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "東住吉店",
+    "url": "menu_detail/?s_id=426"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "東淀川2号店",
+    "url": "menu_detail/?s_id=432"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "福島ラグザ阪神店",
+    "url": "menu_detail/?s_id=882"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "三津屋店",
+    "url": "menu_detail/?s_id=454"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "ユニバーサル・シティウォーク大阪店",
+    "url": "menu_detail/?s_id=877"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "岸和田店",
+    "url": "menu_detail/?s_id=685"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "堺三宝店",
+    "url": "menu_detail/?s_id=447"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "堺百舌鳥店",
+    "url": "menu_detail/?s_id=587"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "泉北2号線店",
+    "url": "menu_detail/?s_id=414"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "初芝店",
+    "url": "menu_detail/?s_id=419"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "浜寺船尾店",
+    "url": "menu_detail/?s_id=417"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "ビバモール美原南インター店",
+    "url": "menu_detail/?s_id=673"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "江坂店\r\n（カウンター席は通常タッチパネルとなります）",
+    "url": "menu_detail/?s_id=881"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "岸部店",
+    "url": "menu_detail/?s_id=46"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "南吹田店",
+    "url": "menu_detail/?s_id=433"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "高槻唐崎店",
+    "url": "menu_detail/?s_id=78"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "高槻辻子店",
+    "url": "menu_detail/?s_id=102"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "大東諸福店",
+    "url": "menu_detail/?s_id=690"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "桜塚店",
+    "url": "menu_detail/?s_id=31"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "豊南店",
+    "url": "menu_detail/?s_id=30"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "富田林店",
+    "url": "menu_detail/?s_id=101"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "巣本店",
+    "url": "menu_detail/?s_id=434"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "寝屋川葛原店",
+    "url": "menu_detail/?s_id=77"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "羽曳野店",
+    "url": "menu_detail/?s_id=441"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "久宝寺店",
+    "url": "menu_detail/?s_id=448"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "東大阪みくりや店",
+    "url": "menu_detail/?s_id=83"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "枚方高野道店",
+    "url": "menu_detail/?s_id=156"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "枚方招提店",
+    "url": "menu_detail/?s_id=463"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "枚方茄子作店",
+    "url": "menu_detail/?s_id=405"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "枚方星ヶ丘店",
+    "url": "menu_detail/?s_id=637"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "藤井寺店",
+    "url": "menu_detail/?s_id=304"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "箕面石丸店",
+    "url": "menu_detail/?s_id=57"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "守口大日店",
+    "url": "menu_detail/?s_id=318"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "外環八尾店",
+    "url": "menu_detail/?s_id=423"
+  },
+  {
+    "prefecture_id": 27,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "明石藤江店",
+    "url": "menu_detail/?s_id=151"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "和田山店",
+    "url": "menu_detail/?s_id=127"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "尼崎大庄店",
+    "url": "menu_detail/?s_id=41"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "尼崎昭和通店",
+    "url": "menu_detail/?s_id=679"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "尼崎東難波店",
+    "url": "menu_detail/?s_id=92"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "伊丹荒牧店",
+    "url": "menu_detail/?s_id=345"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "加古川野口店",
+    "url": "menu_detail/?s_id=228"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "播磨店",
+    "url": "menu_detail/?s_id=129"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "滝野社店",
+    "url": "menu_detail/?s_id=80"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "加茂店",
+    "url": "menu_detail/?s_id=150"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "川西山下店",
+    "url": "menu_detail/?s_id=445"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "伊川谷店",
+    "url": "menu_detail/?s_id=674"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "生田川インター店",
+    "url": "menu_detail/?s_id=888"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "神戸有野店",
+    "url": "menu_detail/?s_id=176"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "神戸星陵台店",
+    "url": "menu_detail/?s_id=217"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "三ノ宮いくたロード店",
+    "url": "menu_detail/?s_id=857"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "谷上店",
+    "url": "menu_detail/?s_id=23"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "垂水名谷店",
+    "url": "menu_detail/?s_id=1007"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "長田駅前店",
+    "url": "menu_detail/?s_id=45"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "灘店",
+    "url": "menu_detail/?s_id=38"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "灘新在家店",
+    "url": "menu_detail/?s_id=121"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "三田対中店",
+    "url": "menu_detail/?s_id=52"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "高砂店",
+    "url": "menu_detail/?s_id=118"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "宝塚高司店",
+    "url": "menu_detail/?s_id=332"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "たつの店",
+    "url": "menu_detail/?s_id=585"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "氷上店",
+    "url": "menu_detail/?s_id=114"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "豊岡店",
+    "url": "menu_detail/?s_id=158"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "西宮鳴尾町店",
+    "url": "menu_detail/?s_id=662"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "西宮門前町店",
+    "url": "menu_detail/?s_id=1013"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "姫路大津店",
+    "url": "menu_detail/?s_id=89"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "姫路飾磨店",
+    "url": "menu_detail/?s_id=36"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "姫路城の西店",
+    "url": "menu_detail/?s_id=317"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "姫路北条店",
+    "url": "menu_detail/?s_id=39"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "三木店",
+    "url": "menu_detail/?s_id=185"
+  },
+  {
+    "prefecture_id": 28,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 29,
+    "name": "斑鳩店",
+    "url": "menu_detail/?s_id=461"
+  },
+  {
+    "prefecture_id": 29,
+    "name": "生駒店",
+    "url": "menu_detail/?s_id=691"
+  },
+  {
+    "prefecture_id": 29,
+    "name": "橿原店",
+    "url": "menu_detail/?s_id=196"
+  },
+  {
+    "prefecture_id": 29,
+    "name": "香芝店",
+    "url": "menu_detail/?s_id=597"
+  },
+  {
+    "prefecture_id": 29,
+    "name": "奈良広陵店",
+    "url": "menu_detail/?s_id=97"
+  },
+  {
+    "prefecture_id": 29,
+    "name": "天理店",
+    "url": "menu_detail/?s_id=458"
+  },
+  {
+    "prefecture_id": 29,
+    "name": "学園前店",
+    "url": "menu_detail/?s_id=451"
+  },
+  {
+    "prefecture_id": 29,
+    "name": "奈良三条大路店",
+    "url": "menu_detail/?s_id=603"
+  },
+  {
+    "prefecture_id": 29,
+    "name": "大和郡山店",
+    "url": "menu_detail/?s_id=1012"
+  },
+  {
+    "prefecture_id": 29,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 30,
+    "name": "岩出店",
+    "url": "menu_detail/?s_id=468"
+  },
+  {
+    "prefecture_id": 30,
+    "name": "紀伊田辺店",
+    "url": "menu_detail/?s_id=273"
+  },
+  {
+    "prefecture_id": 30,
+    "name": "橋本店",
+    "url": "menu_detail/?s_id=71"
+  },
+  {
+    "prefecture_id": 30,
+    "name": "和歌山栄谷店",
+    "url": "menu_detail/?s_id=187"
+  },
+  {
+    "prefecture_id": 30,
+    "name": "和歌山新生店",
+    "url": "menu_detail/?s_id=206"
+  },
+  {
+    "prefecture_id": 30,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 31,
+    "name": "倉吉店",
+    "url": "menu_detail/?s_id=549"
+  },
+  {
+    "prefecture_id": 31,
+    "name": "鳥取東店",
+    "url": "menu_detail/?s_id=511"
+  },
+  {
+    "prefecture_id": 31,
+    "name": "米子店",
+    "url": "menu_detail/?s_id=193"
+  },
+  {
+    "prefecture_id": 31,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 32,
+    "name": "出雲小山店",
+    "url": "menu_detail/?s_id=572"
+  },
+  {
+    "prefecture_id": 32,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 33,
+    "name": "岡山新福店",
+    "url": "menu_detail/?s_id=392"
+  },
+  {
+    "prefecture_id": 33,
+    "name": "岡山大供店",
+    "url": "menu_detail/?s_id=310"
+  },
+  {
+    "prefecture_id": 33,
+    "name": "東岡山店",
+    "url": "menu_detail/?s_id=152"
+  },
+  {
+    "prefecture_id": 33,
+    "name": "倉敷沖新店",
+    "url": "menu_detail/?s_id=165"
+  },
+  {
+    "prefecture_id": 33,
+    "name": "倉敷玉島店",
+    "url": "menu_detail/?s_id=668"
+  },
+  {
+    "prefecture_id": 33,
+    "name": "倉敷宮前店",
+    "url": "menu_detail/?s_id=384"
+  },
+  {
+    "prefecture_id": 33,
+    "name": "総社井手店",
+    "url": "menu_detail/?s_id=633"
+  },
+  {
+    "prefecture_id": 33,
+    "name": "津山店",
+    "url": "menu_detail/?s_id=211"
+  },
+  {
+    "prefecture_id": 33,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "尾道高須店",
+    "url": "menu_detail/?s_id=699"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "廿日市店",
+    "url": "menu_detail/?s_id=348"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "フジグラン東広島店",
+    "url": "menu_detail/?s_id=367"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "高陽店",
+    "url": "menu_detail/?s_id=168"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "広島井口明神店",
+    "url": "menu_detail/?s_id=655"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "広島長楽寺店",
+    "url": "menu_detail/?s_id=391"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "広島舟入店",
+    "url": "menu_detail/?s_id=326"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "広島古市店",
+    "url": "menu_detail/?s_id=278"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "福山春日店",
+    "url": "menu_detail/?s_id=688"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "福山神辺店",
+    "url": "menu_detail/?s_id=552"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "福山新涯店",
+    "url": "menu_detail/?s_id=237"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "三次十日市店",
+    "url": "menu_detail/?s_id=601"
+  },
+  {
+    "prefecture_id": 34,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 35,
+    "name": "岩国麻里布店",
+    "url": "menu_detail/?s_id=678"
+  },
+  {
+    "prefecture_id": 35,
+    "name": "宇部恩田店",
+    "url": "menu_detail/?s_id=656"
+  },
+  {
+    "prefecture_id": 35,
+    "name": "宇部妻崎開作店",
+    "url": "menu_detail/?s_id=598"
+  },
+  {
+    "prefecture_id": 35,
+    "name": "下関椋野店",
+    "url": "menu_detail/?s_id=604"
+  },
+  {
+    "prefecture_id": 35,
+    "name": "新下関店",
+    "url": "menu_detail/?s_id=375"
+  },
+  {
+    "prefecture_id": 35,
+    "name": "周南辻店",
+    "url": "menu_detail/?s_id=538"
+  },
+  {
+    "prefecture_id": 35,
+    "name": "萩土原店",
+    "url": "menu_detail/?s_id=618"
+  },
+  {
+    "prefecture_id": 35,
+    "name": "光浅江店",
+    "url": "menu_detail/?s_id=684"
+  },
+  {
+    "prefecture_id": 35,
+    "name": "防府店",
+    "url": "menu_detail/?s_id=636"
+  },
+  {
+    "prefecture_id": 35,
+    "name": "山口神田店",
+    "url": "menu_detail/?s_id=623"
+  },
+  {
+    "prefecture_id": 35,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 36,
+    "name": "小松島店",
+    "url": "menu_detail/?s_id=290"
+  },
+  {
+    "prefecture_id": 36,
+    "name": "徳島安宅店",
+    "url": "menu_detail/?s_id=184"
+  },
+  {
+    "prefecture_id": 36,
+    "name": "徳島応神店",
+    "url": "menu_detail/?s_id=241"
+  },
+  {
+    "prefecture_id": 36,
+    "name": "徳島川内店",
+    "url": "menu_detail/?s_id=1005"
+  },
+  {
+    "prefecture_id": 36,
+    "name": "徳島出来島店",
+    "url": "menu_detail/?s_id=322"
+  },
+  {
+    "prefecture_id": 36,
+    "name": "徳島西新浜店",
+    "url": "menu_detail/?s_id=644"
+  },
+  {
+    "prefecture_id": 36,
+    "name": "吉野川店",
+    "url": "menu_detail/?s_id=294"
+  },
+  {
+    "prefecture_id": 36,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 37,
+    "name": "綾川店",
+    "url": "menu_detail/?s_id=645"
+  },
+  {
+    "prefecture_id": 37,
+    "name": "イオンタウン宇多津店",
+    "url": "menu_detail/?s_id=508"
+  },
+  {
+    "prefecture_id": 37,
+    "name": "高松太田店",
+    "url": "menu_detail/?s_id=221"
+  },
+  {
+    "prefecture_id": 37,
+    "name": "高松郷東店",
+    "url": "menu_detail/?s_id=667"
+  },
+  {
+    "prefecture_id": 37,
+    "name": "高松東山崎店",
+    "url": "menu_detail/?s_id=231"
+  },
+  {
+    "prefecture_id": 37,
+    "name": "ゆめタウン高松店",
+    "url": "menu_detail/?s_id=324"
+  },
+  {
+    "prefecture_id": 37,
+    "name": "丸亀店",
+    "url": "menu_detail/?s_id=261"
+  },
+  {
+    "prefecture_id": 37,
+    "name": "三豊店",
+    "url": "menu_detail/?s_id=267"
+  },
+  {
+    "prefecture_id": 37,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 38,
+    "name": "今治中寺店",
+    "url": "menu_detail/?s_id=220"
+  },
+  {
+    "prefecture_id": 38,
+    "name": "伊予松前店",
+    "url": "menu_detail/?s_id=299"
+  },
+  {
+    "prefecture_id": 38,
+    "name": "宇和島店",
+    "url": "menu_detail/?s_id=296"
+  },
+  {
+    "prefecture_id": 38,
+    "name": "西条店",
+    "url": "menu_detail/?s_id=308"
+  },
+  {
+    "prefecture_id": 38,
+    "name": "四国中央店",
+    "url": "menu_detail/?s_id=295"
+  },
+  {
+    "prefecture_id": 38,
+    "name": "東温店",
+    "url": "menu_detail/?s_id=385"
+  },
+  {
+    "prefecture_id": 38,
+    "name": "新居浜店",
+    "url": "menu_detail/?s_id=275"
+  },
+  {
+    "prefecture_id": 38,
+    "name": "松山天山店",
+    "url": "menu_detail/?s_id=268"
+  },
+  {
+    "prefecture_id": 38,
+    "name": "松山生石店",
+    "url": "menu_detail/?s_id=251"
+  },
+  {
+    "prefecture_id": 38,
+    "name": "松山衣山店",
+    "url": "menu_detail/?s_id=334"
+  },
+  {
+    "prefecture_id": 38,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 39,
+    "name": "高知朝倉店",
+    "url": "menu_detail/?s_id=264"
+  },
+  {
+    "prefecture_id": 39,
+    "name": "高知インター店",
+    "url": "menu_detail/?s_id=283"
+  },
+  {
+    "prefecture_id": 39,
+    "name": "高知潮江店",
+    "url": "menu_detail/?s_id=271"
+  },
+  {
+    "prefecture_id": 39,
+    "name": "四万十店",
+    "url": "menu_detail/?s_id=504"
+  },
+  {
+    "prefecture_id": 39,
+    "name": "南国店",
+    "url": "menu_detail/?s_id=314"
+  },
+  {
+    "prefecture_id": 39,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "飯塚柏の森店",
+    "url": "menu_detail/?s_id=265"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "大野城大城店",
+    "url": "menu_detail/?s_id=336"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "大牟田店",
+    "url": "menu_detail/?s_id=263"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "遠賀岡垣店",
+    "url": "menu_detail/?s_id=609"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "志免向ヶ丘店",
+    "url": "menu_detail/?s_id=300"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "新宮上府店",
+    "url": "menu_detail/?s_id=340"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "上吉田店",
+    "url": "menu_detail/?s_id=233"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "小倉井堀店",
+    "url": "menu_detail/?s_id=313"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "戸畑鞘ヶ谷店",
+    "url": "menu_detail/?s_id=564"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "門司片上海岸店",
+    "url": "menu_detail/?s_id=354"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "八幡黒崎店",
+    "url": "menu_detail/?s_id=254"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "八幡東田店",
+    "url": "menu_detail/?s_id=298"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "若松大鳥居店",
+    "url": "menu_detail/?s_id=232"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "久留米通町店",
+    "url": "menu_detail/?s_id=325"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "津福バイパス店",
+    "url": "menu_detail/?s_id=198"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "田川夏吉店",
+    "url": "menu_detail/?s_id=514"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "ゆめモール筑後店",
+    "url": "menu_detail/?s_id=513"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "筑紫野杉塚店",
+    "url": "menu_detail/?s_id=210"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "那珂川店",
+    "url": "menu_detail/?s_id=661"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "博多駅南店",
+    "url": "menu_detail/?s_id=377"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "福岡伊都店",
+    "url": "menu_detail/?s_id=276"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "福岡親富孝通り店",
+    "url": "menu_detail/?s_id=320"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "福岡神松寺店",
+    "url": "menu_detail/?s_id=282"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "福岡野方店",
+    "url": "menu_detail/?s_id=226"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "福岡箱崎店",
+    "url": "menu_detail/?s_id=331"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "福岡原田店",
+    "url": "menu_detail/?s_id=316"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "苅田店",
+    "url": "menu_detail/?s_id=207"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "宗像光岡店",
+    "url": "menu_detail/?s_id=245"
+  },
+  {
+    "prefecture_id": 40,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 41,
+    "name": "唐津和多田店",
+    "url": "menu_detail/?s_id=558"
+  },
+  {
+    "prefecture_id": 41,
+    "name": "吉野ヶ里店",
+    "url": "menu_detail/?s_id=626"
+  },
+  {
+    "prefecture_id": 41,
+    "name": "佐賀鍋島店",
+    "url": "menu_detail/?s_id=307"
+  },
+  {
+    "prefecture_id": 41,
+    "name": "佐賀兵庫店",
+    "url": "menu_detail/?s_id=248"
+  },
+  {
+    "prefecture_id": 41,
+    "name": "南佐賀店",
+    "url": "menu_detail/?s_id=293"
+  },
+  {
+    "prefecture_id": 41,
+    "name": "武雄店",
+    "url": "menu_detail/?s_id=556"
+  },
+  {
+    "prefecture_id": 41,
+    "name": "鳥栖古賀店",
+    "url": "menu_detail/?s_id=353"
+  },
+  {
+    "prefecture_id": 41,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 42,
+    "name": "諫早店",
+    "url": "menu_detail/?s_id=352"
+  },
+  {
+    "prefecture_id": 42,
+    "name": "大村幸町店",
+    "url": "menu_detail/?s_id=323"
+  },
+  {
+    "prefecture_id": 42,
+    "name": "させぼ五番街店",
+    "url": "menu_detail/?s_id=350"
+  },
+  {
+    "prefecture_id": 42,
+    "name": "佐世保大塔店",
+    "url": "menu_detail/?s_id=219"
+  },
+  {
+    "prefecture_id": 42,
+    "name": "長崎道ノ尾店",
+    "url": "menu_detail/?s_id=327"
+  },
+  {
+    "prefecture_id": 42,
+    "name": "時津店",
+    "url": "menu_detail/?s_id=381"
+  },
+  {
+    "prefecture_id": 42,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 43,
+    "name": "光の森店",
+    "url": "menu_detail/?s_id=190"
+  },
+  {
+    "prefecture_id": 43,
+    "name": "熊本鹿子木店",
+    "url": "menu_detail/?s_id=309"
+  },
+  {
+    "prefecture_id": 43,
+    "name": "熊本新外店",
+    "url": "menu_detail/?s_id=280"
+  },
+  {
+    "prefecture_id": 43,
+    "name": "熊本富合店",
+    "url": "menu_detail/?s_id=301"
+  },
+  {
+    "prefecture_id": 43,
+    "name": "熊本はません店",
+    "url": "menu_detail/?s_id=225"
+  },
+  {
+    "prefecture_id": 43,
+    "name": "熊本本山店",
+    "url": "menu_detail/?s_id=270"
+  },
+  {
+    "prefecture_id": 43,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 44,
+    "name": "大分大在店",
+    "url": "menu_detail/?s_id=557"
+  },
+  {
+    "prefecture_id": 44,
+    "name": "大分中戸次店",
+    "url": "menu_detail/?s_id=575"
+  },
+  {
+    "prefecture_id": 44,
+    "name": "大分元町店",
+    "url": "menu_detail/?s_id=279"
+  },
+  {
+    "prefecture_id": 44,
+    "name": "大分わさだ店",
+    "url": "menu_detail/?s_id=266"
+  },
+  {
+    "prefecture_id": 44,
+    "name": "コスモタウン佐伯店",
+    "url": "menu_detail/?s_id=389"
+  },
+  {
+    "prefecture_id": 44,
+    "name": "大分中津店",
+    "url": "menu_detail/?s_id=285"
+  },
+  {
+    "prefecture_id": 44,
+    "name": "日田玉川店",
+    "url": "menu_detail/?s_id=234"
+  },
+  {
+    "prefecture_id": 44,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 45,
+    "name": "高鍋菖蒲池店",
+    "url": "menu_detail/?s_id=537"
+  },
+  {
+    "prefecture_id": 45,
+    "name": "延岡平原店",
+    "url": "menu_detail/?s_id=523"
+  },
+  {
+    "prefecture_id": 45,
+    "name": "日向原町店",
+    "url": "menu_detail/?s_id=563"
+  },
+  {
+    "prefecture_id": 45,
+    "name": "都城甲斐元店",
+    "url": "menu_detail/?s_id=398"
+  },
+  {
+    "prefecture_id": 45,
+    "name": "都城都北店",
+    "url": "menu_detail/?s_id=286"
+  },
+  {
+    "prefecture_id": 45,
+    "name": "宮崎新別府店",
+    "url": "menu_detail/?s_id=371"
+  },
+  {
+    "prefecture_id": 45,
+    "name": "宮崎大工店",
+    "url": "menu_detail/?s_id=250"
+  },
+  {
+    "prefecture_id": 45,
+    "name": "宮崎恒久店",
+    "url": "menu_detail/?s_id=289"
+  },
+  {
+    "prefecture_id": 45,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 46,
+    "name": "アクロスプラザ南栄店",
+    "url": "menu_detail/?s_id=351"
+  },
+  {
+    "prefecture_id": 46,
+    "name": "鹿児島新栄店",
+    "url": "menu_detail/?s_id=239"
+  },
+  {
+    "prefecture_id": 46,
+    "name": "鹿児島吉野店",
+    "url": "menu_detail/?s_id=346"
+  },
+  {
+    "prefecture_id": 46,
+    "name": "鹿屋寿店",
+    "url": "menu_detail/?s_id=288"
+  },
+  {
+    "prefecture_id": 46,
+    "name": "霧島隼人店",
+    "url": "menu_detail/?s_id=252"
+  },
+  {
+    "prefecture_id": 46,
+    "name": "",
+    "url": "#"
+  },
+  {
+    "prefecture_id": 47,
+    "name": "糸満西崎店",
+    "url": "menu_detail/?s_id=530"
+  },
+  {
+    "prefecture_id": 47,
+    "name": "浦添バークレーズコート店",
+    "url": "menu_detail/?s_id=399"
+  },
+  {
+    "prefecture_id": 47,
+    "name": "うるまみどり町店",
+    "url": "menu_detail/?s_id=541"
+  },
+  {
+    "prefecture_id": 47,
+    "name": "沖縄住吉店",
+    "url": "menu_detail/?s_id=635"
+  },
+  {
+    "prefecture_id": 47,
+    "name": "はにんす宜野湾店",
+    "url": "menu_detail/?s_id=646"
+  },
+  {
+    "prefecture_id": 47,
+    "name": "北谷店",
+    "url": "menu_detail/?s_id=622"
+  },
+  {
+    "prefecture_id": 47,
+    "name": "那覇天久店",
+    "url": "menu_detail/?s_id=535"
+  },
+  {
+    "prefecture_id": 47,
+    "name": "那覇国際通り店",
+    "url": "menu_detail/?s_id=855"
+  },
+  {
+    "prefecture_id": 47,
+    "name": "",
+    "url": "#"
+  }
+]
