@@ -18,9 +18,10 @@ export default async function handler(
 
   try {
     // sushiro_all_shops.jsonのパス
-    const shopsJsonPath = path.join(process.cwd(),'components', 'sushiro_data', 'sushiro_all_shops.json');
+    const shopsJsonPath = path.join(process.cwd(), 'components', 'sushiro_data', 'sushiro_all_shops.json');
     
     if (!fs.existsSync(shopsJsonPath)) {
+      console.error('店舗データファイルが見つかりません:', shopsJsonPath);
       return res.status(500).json({ error: '店舗データファイルが存在しません' });
     }
 
@@ -31,21 +32,55 @@ export default async function handler(
     const store = shopsData.find((shop: { name: string }) => shop.name === storeName);
 
     if (!store) {
+      console.error('店舗が見つかりません:', storeName);
       return res.status(404).json({ error: '指定された店舗が見つかりませんでした' });
     }
 
     const storeUrl = store.url;
+    console.log('取得する店舗URL:', storeUrl);
 
     // sushiro_scrape.pyのパス
     const scriptPath = path.join(process.cwd(), 'components', 'sushiro_scrape.py');
 
-    // Pythonスクリプトを実行
-    const { stdout } = await execPromise(`python3 "${scriptPath}" "${storeUrl}"`);
-    const menuData = JSON.parse(stdout);
+    if (!fs.existsSync(scriptPath)) {
+      console.error('Pythonスクリプトが見つかりません:', scriptPath);
+      return res.status(500).json({ error: 'スクリプトファイルが存在しません' });
+    }
 
-    res.status(200).json(menuData);
+    // Pythonスクリプトを実行
+    const { stdout, stderr } = await execPromise(`python3 "${scriptPath}" "${storeUrl}"`);
+
+    if (stderr) {
+      console.error('Pythonスクリプトエラー:', stderr);
+      return res.status(500).json({ error: `スクリプト実行エラー: ${stderr}` });
+    }
+
+    try {
+      const menuData = JSON.parse(stdout);
+      
+      // エラーレスポンスのチェック
+      if (menuData.error) {
+        console.error('メニュー取得エラー:', menuData.error);
+        return res.status(404).json({ error: menuData.error });
+      }
+
+      // メニューデータの存在確認
+      if (!Array.isArray(menuData) || menuData.length === 0) {
+        console.error('メニューデータが空です');
+        return res.status(404).json({ error: 'メニューが見つかりませんでした' });
+      }
+
+      res.status(200).json(menuData);
+    } catch (parseError) {
+      console.error('JSON解析エラー:', parseError);
+      console.error('受信したデータ:', stdout);
+      return res.status(500).json({ error: 'メニューデータの解析に失敗しました' });
+    }
   } catch (error) {
-    console.error('Error:', error);
-    res.status(500).json({ error: 'メニューの取得に失敗しました' });
+    console.error('予期せぬエラー:', error);
+    res.status(500).json({ 
+      error: 'メニューの取得に失敗しました',
+      details: error instanceof Error ? error.message : String(error)
+    });
   }
 }

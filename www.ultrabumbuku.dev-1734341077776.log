@@ -1,0 +1,17 @@
+random_sushi-f3565c19a4bf2ccc.js:1 
+        
+        
+       GET https://www.ultrabumbuku.dev/api/menu?storeName=%E3%81%A4%E3%81%8F%E3%81%B0%E5%AD%A6%E5%9C%92%E3%81%AE%E6%A3%AE%E5%BA%97 500 (Internal Server Error)
+(anonymous) @ random_sushi-f3565c19a4bf2ccc.js:1
+onSubmit @ random_sushi-f3565c19a4bf2ccc.js:1
+eU @ framework-ecc4130bc7a58a64.js:9
+eH @ framework-ecc4130bc7a58a64.js:9
+(anonymous) @ framework-ecc4130bc7a58a64.js:9
+re @ framework-ecc4130bc7a58a64.js:9
+rn @ framework-ecc4130bc7a58a64.js:9
+(anonymous) @ framework-ecc4130bc7a58a64.js:9
+oP @ framework-ecc4130bc7a58a64.js:9
+eF @ framework-ecc4130bc7a58a64.js:9
+ro @ framework-ecc4130bc7a58a64.js:9
+nU @ framework-ecc4130bc7a58a64.js:9
+nD @ framework-ecc4130bc7a58a64.js:9
