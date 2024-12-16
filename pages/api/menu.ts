@@ -1,50 +1,48 @@
-import { NextApiRequest, NextApiResponse } from 'next';
-import { exec } from 'child_process';
-import { promisify } from 'util';
-import path from 'path';
-
-const execPromise = promisify(exec);
+import type { NextApiRequest, NextApiResponse } from 'next';
+import axios from 'axios';
+import * as cheerio from 'cheerio';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { storeName } = req.query;
 
   if (!storeName || typeof storeName !== 'string') {
-    return res.status(400).json({ error: '店舗名が必要です' });
+    return res.status(400).json({ error: '店舗名を入力してください' });
   }
 
+  const storeUrl = `https://akindo-sushiro.co.jp/menu/menu_detail/?s_id=${encodeURIComponent(storeName)}`;
+
   try {
-    const scriptPath = path.join(process.cwd(), 'api/sushiro_scrape.py');
-    const storeUrl = `https://akindo-sushiro.co.jp/menu/menu_detail/?s_id=${storeName}`;
-
-    const pythonCmd = 'python3'; // Vercelの環境でPython3が利用可能であることを前提としています
-    console.log(`Executing command: ${pythonCmd} "${scriptPath}" "${storeUrl}"`);
-    const { stdout, stderr } = await execPromise(`${pythonCmd} "${scriptPath}" "${storeUrl}"`);
-
-    if (stderr) {
-      console.error(`Python script error: ${stderr}`);
-      return res.status(500).json({ error: `Python実行エラー: ${stderr}` });
-    }
-
-    let menuData;
-    try {
-      menuData = JSON.parse(stdout);
-    } catch (parseError) {
-      console.error(`JSON parse error: ${parseError}`);
-      return res.status(500).json({ error: 'JSONの解析に失敗しました', details: parseError.message });
-    }
-
-    if ('error' in menuData) {
-      console.error(`Menu data error: ${menuData.error}`);
-      return res.status(404).json(menuData);
-    }
-
-    return res.status(200).json(menuData);
-
-  } catch (error) {
-    console.error('System error:', error);
-    return res.status(500).json({
-      error: 'メニューの取得に失敗しました',
-      details: error instanceof Error ? error.message : String(error)
+    const response = await axios.get(storeUrl, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0',
+        'Accept-Language': 'ja-JP,ja;q=0.9',
+      },
     });
+
+    const html = response.data;
+    const $ = cheerio.load(html);
+    const menuItems = $('div.menu-item');
+
+    if (menuItems.length === 0) {
+      return res.status(404).json({ error: 'メニューが見つかりませんでした' });
+    }
+
+    const menuList = menuItems.map((_, element) => {
+      const name = $(element).find('div.menu-item__name').text().trim();
+      const priceText = $(element).find('div.menu-item__price').text().trim();
+
+      const cleanedPrice = priceText.replace('(税込)', '').replace('円', '').replace(',', '').trim();
+      const priceValue = parseInt(cleanedPrice, 10);
+
+      if (!isNaN(priceValue)) {
+        return { name, price: priceValue };
+      }
+      return null;
+    }).get().filter(item => item !== null);
+
+    res.status(200).json(menuList);
+  } catch (error) {
+    console.error('Error fetching menu:', error);
+    res.status(500).json({ error: 'メニューの取得に失敗しました' });
   }
 }

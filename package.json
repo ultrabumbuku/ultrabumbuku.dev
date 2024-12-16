@@ -8,10 +8,11 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.45.2",
     "argparse": "^1.0.10",
+    "axios": "^1.7.9",
     "boolbase": "^1.0.0",
     "busboy": "^1.6.0",
     "caniuse-lite": "^1.0.30001647",
-    "cheerio": "^1.0.0-rc.12",
+    "cheerio": "^1.0.0",
     "cheerio-select": "^2.1.0",
     "client-only": "^0.0.1",
     "commander": "^8.3.0",
