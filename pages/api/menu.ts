@@ -18,7 +18,7 @@ export default async function handler(
 
   try {
     // sushiro_all_shops.jsonのパス
-    const shopsJsonPath = path.join(process.cwd(), 'sushiro_data', 'sushiro_all_shops.json');
+    const shopsJsonPath = path.join(process.cwd(),'components', 'sushiro_data', 'sushiro_all_shops.json');
     
     if (!fs.existsSync(shopsJsonPath)) {
       return res.status(500).json({ error: '店舗データファイルが存在しません' });
