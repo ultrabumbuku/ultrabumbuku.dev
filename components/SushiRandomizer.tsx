@@ -1,12 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
 import styles from '../styles/SushiRandomizer.module.css';
 import { useRouter } from 'next/router';
-
-interface Store {
-  prefecture_id: number;
-  name: string;
-  url: string;
-}
+import { StoreSelector } from './StoreSelector';
 
 interface MenuItem {
   name: string;
@@ -20,8 +15,6 @@ interface Player {
 }
 
 const SushiRandomizer: React.FC = () => {
-  const [stores, setStores] = useState<Store[]>([]);
-  const [selectedStore, setSelectedStore] = useState<string>('');
   const [menuItems, setMenuItems] = useState<MenuItem[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -30,24 +23,20 @@ const SushiRandomizer: React.FC = () => {
   const [newPlayerName, setNewPlayerName] = useState('');
   const router = useRouter();
 
-  // 店舗データの取得
-  useEffect(() => {
-    fetch('/sushiro_data/sushiro_all_shops.json')
-      .then(res => res.json())
-      .then(data => setStores(data))
-      .catch(err => setError('店舗データの取得に失敗しました'));
-  }, []);
-
-  // 店舗選択時のメニュー取得
-  const handleStoreSelect = useCallback(async (storeUrl: string) => {
+  const handleStoreSelect = useCallback(async (storeName: string) => {
     setIsLoading(true);
     setError(null);
-    setSelectedStore(storeUrl);
 
     try {
-      const response = await fetch(`/api/menu?storeUrl=${storeUrl}`);
+      const response = await fetch(
+        `/api/menu?storeName=${encodeURIComponent(storeName)}`
+      );
       const data = await response.json();
-      setMenuItems(data);
+      if (data.error) {
+        setError(data.error);
+      } else {
+        setMenuItems(data);
+      }
     } catch (err) {
       setError('メニューの取得に失敗しました');
     } finally {
@@ -57,17 +46,20 @@ const SushiRandomizer: React.FC = () => {
 
   const addPlayer = useCallback(() => {
     if (newPlayerName.trim()) {
-      setPlayers(prevPlayers => [...prevPlayers, { 
-        name: newPlayerName, 
-        orders: [], 
-        totalAmount: 0 
-      }]);
+      setPlayers((prevPlayers) => [
+        ...prevPlayers,
+        {
+          name: newPlayerName,
+          orders: [],
+          totalAmount: 0,
+        },
+      ]);
       setNewPlayerName('');
     }
   }, [newPlayerName]);
 
   const removeSushiRoll = useCallback((playerName: string) => {
-    setCurrentRoll(prev => {
+    setCurrentRoll((prev) => {
       const newRoll = { ...prev };
       delete newRoll[playerName];
       return newRoll;
@@ -76,7 +68,7 @@ const SushiRandomizer: React.FC = () => {
 
   const removePlayer = useCallback((index: number) => {
     if (window.confirm('このプレイヤーを削除してもよろしいですか？')) {
-      setPlayers(prevPlayers => prevPlayers.filter((_, i) => i !== index));
+      setPlayers((prevPlayers) => prevPlayers.filter((_, i) => i !== index));
     }
   }, []);
 
@@ -85,47 +77,57 @@ const SushiRandomizer: React.FC = () => {
       setError('先に店舗を選択してください');
       return;
     }
-    
-    setCurrentRoll(players.reduce((acc, player) => {
-      const randomItem = menuItems[Math.floor(Math.random() * menuItems.length)];
-      acc[player.name] = randomItem;
-      return acc;
-    }, {} as Record<string, MenuItem>));
+
+    setCurrentRoll(
+      players.reduce((acc, player) => {
+        const randomItem =
+          menuItems[Math.floor(Math.random() * menuItems.length)];
+        acc[player.name] = randomItem;
+        return acc;
+      }, {} as Record<string, MenuItem>)
+    );
   }, [players, menuItems]);
 
-  const selectSushi = useCallback((playerName: string) => {
-    setPlayers(prevPlayers => prevPlayers.map(player => {
-      if (player.name === playerName) {
-        const selectedItem = currentRoll[playerName];
-        return {
-          ...player,
-          orders: [...player.orders, selectedItem],
-          totalAmount: player.totalAmount + selectedItem.price
-        };
-      }
-      return player;
-    }));
-    setCurrentRoll(prev => {
-      const newRoll = { ...prev };
-      delete newRoll[playerName];
-      return newRoll;
-    });
-  }, [currentRoll]);
+  const selectSushi = useCallback(
+    (playerName: string) => {
+      setPlayers((prevPlayers) =>
+        prevPlayers.map((player) => {
+          if (player.name === playerName) {
+            const selectedItem = currentRoll[playerName];
+            return {
+              ...player,
+              orders: [...player.orders, selectedItem],
+              totalAmount: player.totalAmount + selectedItem.price,
+            };
+          }
+          return player;
+        })
+      );
+      setCurrentRoll((prev) => {
+        const newRoll = { ...prev };
+        delete newRoll[playerName];
+        return newRoll;
+      });
+    },
+    [currentRoll]
+  );
 
   const resetGame = useCallback(() => {
-    setPlayers(prevPlayers => prevPlayers.map(player => ({ 
-      ...player, 
-      orders: [], 
-      totalAmount: 0 
-    })));
+    setPlayers((prevPlayers) =>
+      prevPlayers.map((player) => ({
+        ...player,
+        orders: [],
+        totalAmount: 0,
+      }))
+    );
     setCurrentRoll({});
   }, []);
 
   const handleCheckout = useCallback(() => {
-    const resultData = players.map(player => ({
+    const resultData = players.map((player) => ({
       playerName: player.name,
       orders: player.orders,
-      totalAmount: player.totalAmount
+      totalAmount: player.totalAmount,
     }));
     localStorage.setItem('resultData', JSON.stringify(resultData));
     router.push('/result');
@@ -133,21 +135,9 @@ const SushiRandomizer: React.FC = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.storeSelector}>
-        <select 
-          onChange={(e) => handleStoreSelect(e.target.value)}
-          value={selectedStore}
-        >
-          <option value="">店舗を選択してください</option>
-          {stores.map((store, index) => (
-            <option key={index} value={store.url}>
-              {store.name}
-            </option>
-          ))}
-        </select>
-        {isLoading && <div>メニューを読み込み中...</div>}
-        {error && <div className={styles.error}>{error}</div>}
-      </div>
+      <StoreSelector onStoreSelect={handleStoreSelect} />
+      {isLoading && <div>メニューを読み込み中...</div>}
+      {error && <div className={styles.error}>{error}</div>}
 
       <div className={styles.addPlayerForm}>
         <input
@@ -160,7 +150,9 @@ const SushiRandomizer: React.FC = () => {
       </div>
 
       <div className={styles.actionButtons}>
-        <button onClick={rollSushi} disabled={!selectedStore}>回す</button>
+        <button onClick={rollSushi} disabled={menuItems.length === 0}>
+          回す
+        </button>
         <button onClick={resetGame}>リセット</button>
         <button onClick={handleCheckout}>お会計</button>
       </div>
@@ -169,7 +161,7 @@ const SushiRandomizer: React.FC = () => {
         <div key={player.name} className={styles.playerCard}>
           <div className={styles.playerHeader}>
             <span className={styles.playerName}>{player.name}</span>
-            <button 
+            <button
               className={styles.removePlayerButton}
               onClick={() => removePlayer(index)}
               title="プレイヤーを削除"
@@ -181,17 +173,17 @@ const SushiRandomizer: React.FC = () => {
           {currentRoll[player.name] && (
             <div className={styles.currentRoll}>
               <span>
-                {currentRoll[player.name].name} 
-                ({currentRoll[player.name].price}円)
+                {currentRoll[player.name].name} (
+                {currentRoll[player.name].price}円)
               </span>
               <div className={styles.rollActions}>
-                <button 
+                <button
                   className={styles.selectButton}
                   onClick={() => selectSushi(player.name)}
                 >
                   選択
                 </button>
-                <button 
+                <button
                   className={styles.removeRollButton}
                   onClick={() => removeSushiRoll(player.name)}
                 >

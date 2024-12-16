@@ -3,16 +3,25 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-def get_menu_items(url):
+def get_menu_items(store_url):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
     }
     
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(store_url, headers=headers)
         response.encoding = 'utf-8'
+        
+        if response.status_code != 200:
+            print(json.dumps({'error': '店舗ページの取得に失敗しました'}))
+            return
+        
         soup = BeautifulSoup(response.text, 'html.parser')
         menu_items = soup.find_all('div', class_='menu-item')
+        
+        if not menu_items:
+            print(json.dumps({'error': 'メニューが見つかりませんでした'}))
+            return
         
         menu_list = []
         for item in menu_items:
@@ -20,9 +29,14 @@ def get_menu_items(url):
             price = item.find('div', class_='menu-item__price')
             
             if name and price:
+                try:
+                    price_value = int(price.text.strip().replace('円', '').replace(',', ''))
+                except ValueError:
+                    price_value = 0  # 価格が整数に変換できない場合のデフォルト値
+                
                 menu_list.append({
                     'name': name.text.strip(),
-                    'price': int(price.text.strip().replace('円', '').replace(',', ''))
+                    'price': price_value
                 })
         
         print(json.dumps(menu_list, ensure_ascii=False))
@@ -33,4 +47,6 @@ def get_menu_items(url):
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         store_url = sys.argv[1]
-        get_menu_items(f'https://www.akindo-sushiro.co.jp/menu/{store_url}')
+        get_menu_items(store_url)
+    else:
+        print(json.dumps({'error': '店舗URLが提供されていません'}))
