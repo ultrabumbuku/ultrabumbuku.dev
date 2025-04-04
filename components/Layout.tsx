@@ -9,14 +9,14 @@ type LayoutProps = {
 
 const Layout: React.FC<LayoutProps> = ({ children, title = 'ultrabumbuku' }) => {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+    <div className="layout">
       <Head>
         <title>{title}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />
-      <main style={{ flex: 1 }}>{children}</main>
+      <main>{children}</main>
       <Footer />
     </div>
   )

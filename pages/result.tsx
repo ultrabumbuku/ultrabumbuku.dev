@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
-import styles from '../styles/Result.module.css'
-import { IoArrowBack, IoLogoTwitter, IoTrophyOutline } from 'react-icons/io5'  // IoShareSocial を IoLogoTwitter に変更
+import { IoArrowBack, IoLogoTwitter, IoTrophyOutline } from 'react-icons/io5'
 
 interface OrderItem {
   name: string
@@ -29,7 +28,7 @@ const Result = () => {
 
   const handleShare = () => {
     const text = `${winner.playerName}さんが優勝しました！（${winner.totalAmount}円）\n#無作為抽出寿司`
-    const url = 'https://ultrabumbuku.dev/musakui'  // あなたのアプリのURLに変更してください
+    const url = 'https://ultrabumbuku.dev/musakui'
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
     window.open(twitterUrl, '_blank')
   }
@@ -40,32 +39,32 @@ const Result = () => {
   , results[0]);
 
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>お会計</h1>
+    <div className="result-container">
+      <h1 className="resultTitle">お会計</h1>
       
       {winner && (
-        <div className={styles.winnerSection}>
-          <IoTrophyOutline className={styles.trophyIcon} />
-          <div className={styles.winnerInfo}>
-            <span className={styles.winnerLabel}>優勝</span>
-            <span className={styles.winnerName}>{winner.playerName}</span>
-            <span className={styles.winnerAmount}>{winner.totalAmount}円</span>
+        <div className="winnerSection">
+          <IoTrophyOutline className="trophyIcon" />
+          <div className="winnerInfo">
+            <span className="winnerLabel">優勝</span>
+            <span className="winnerName">{winner.playerName}</span>
+            <span className="winnerAmount">{winner.totalAmount}円</span>
           </div>
         </div>
       )}
 
-      <div className={styles.resultGrid}>
+      <div className="resultGrid">
         {results.map((player, index) => (
-          <div key={index} className={styles.playerCard}>
-            <div className={styles.playerHeader}>
+          <div key={index} className="playerCard">
+            <div className="playerHeader">
               <h2>{player.playerName}</h2>
-              <span className={styles.playerTotal}>{player.totalAmount}円</span>
+              <span className="playerTotal">{player.totalAmount}円</span>
             </div>
-            <ul className={styles.orderList}>
+            <ul className="orderList">
               {player.orders.map((order, idx) => (
-                <li key={idx} className={styles.orderItem}>
+                <li key={idx} className="orderItem">
                   <span>{order.name}</span>
-                  <span className={styles.orderPrice}>{order.price}円</span>
+                  <span className="orderPrice">{order.price}円</span>
                 </li>
               ))}
             </ul>
@@ -73,17 +72,17 @@ const Result = () => {
         ))}
       </div>
 
-      <div className={styles.actions}>
+      <div className="actions">
         <button
           onClick={() => router.push('/musakui')}
-          className={styles.backButton}
+          className="backButton"
         >
           <IoArrowBack />
           <span>もう一度遊ぶ</span>
         </button>
         <button
           onClick={handleShare}
-          className={styles.shareButton}
+          className="shareButton"
         >
           <IoLogoTwitter />
           <span>Twitterでシェア</span>

@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import Layout from '../components/Layout'
-import { FaEnvelope, FaTwitter, FaGithub } from 'react-icons/fa';
-import styles from '../styles/Home.module.css'
+import { FaEnvelope, FaTwitter, FaGithub } from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -13,7 +12,7 @@ export default function Home() {
         <meta name="description" content="ウルトラぶんぶくの個人サイト" />
       </Head>
 
-      <main>
+      <main className="main">
         <section id="about">
           <h2>About Me</h2>
           <p>筑波大学 知識情報・図書館学類に所属しています。大学3年生です。</p>
@@ -87,8 +86,6 @@ export default function Home() {
           <a href="https://note.com/ultrabumbuku" target="_blank" rel="noopener noreferrer" aria-label="Note">
             <Image src="/images/icons/note-icon.svg" alt="Note Icon" width={40} height={40} />
           </a>
-
-
         </div>
       </main>
     </Layout>

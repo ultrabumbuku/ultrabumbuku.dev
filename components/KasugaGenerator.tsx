@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import styles from '../styles/KasugaGenerator.module.css'
 
 const wordList1 = ['知識', '情報', '図書館']
 const wordList2 = ['情報', 'メディア', '創成']
@@ -51,8 +50,8 @@ const KasugaGenerator: React.FC = () => {
   )}`
 
   return (
-    <section className={styles.generatorSection}>
-      <div className={styles.generatorControls}>
+    <section className="generatorSection">
+      <div className="generatorControls">
         <label htmlFor="maxWordsInput">単語数の上限を入力してください :</label>
         <input
           type="number"
@@ -64,9 +63,9 @@ const KasugaGenerator: React.FC = () => {
         />
         <button onClick={handleGenerate}>Generate</button>
       </div>
-      {result && <p className={styles.result}>{result}</p>}
+      {result && <p className="result">{result}</p>}
       {result && (
-        <a className={styles.tweetButton} href={tweetUrl} target="_blank" rel="noopener noreferrer">
+        <a className="tweetButton" href={tweetUrl} target="_blank" rel="noopener noreferrer">
           ツイートする
         </a>
       )}
