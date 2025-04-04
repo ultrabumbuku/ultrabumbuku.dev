@@ -1,0 +1,57 @@
+.postList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .postItem {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1rem;
+  }
+  
+  .postItem:last-child {
+    border-bottom: none;
+  }
+  
+  .postItem a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .postItem a:hover {
+    color: #0070f3;
+  }
+  
+  .postItem h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .postItem small {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .newPostButton {
+    background-color: #f0f0f0; /* 明るいグレー */
+    color: #333; /* ダークグレー */
+    border: 1px solid #ccc; /* 薄いグレーのボーダー */
+    padding: 10px 15px; /* パディングを調整 */
+    border-radius: 5px; /* 角を丸くする */
+    cursor: pointer; /* カーソルをポインターに */
+    transition: background-color 0.3s, border-color 0.1s; /* ホバー時のトランジション */
+    margin-top: 20px; /* 上部にマージンを追加 */
+  }
+  
+  .newPostButton:hover {
+    background-color: #e0e0e0; /* ホバー時の背景色 */
+    border-color: #bbb; /* ホバー時のボーダー色 */
+  }
+  
+  @media (max-width: 600px) {
+    .postItem h2 {
+      font-size: 1.2rem;
+    }
+  }
+  

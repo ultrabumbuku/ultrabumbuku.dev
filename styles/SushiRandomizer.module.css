@@ -83,6 +83,7 @@
     background-color: #f9f9f9;
   }
 
+<<<<<<< HEAD
   .deleteButton {
     background: none;
     border: none;
@@ -254,10 +255,64 @@
   }
 
   .actionButtons {
+=======
+  .actionButtons {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .playerCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+  }
+
+  .playerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .playerName {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .removePlayerButton {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #ff4444;
+    background: none;
+    color: #ff4444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .currentRoll {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .rollActions {
+>>>>>>> 0398932218b5cb736b7bfa713bff30e63d319e52
     display: flex;
     gap: 8px;
   }
 
+<<<<<<< HEAD
   .selectButton, .skipButton {
     display: flex;
     align-items: center;
@@ -302,4 +357,44 @@
     padding: 15px;
     margin-bottom: 15px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+=======
+  .selectButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .removeRollButton {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #666;
+    background: none;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  .orderHistory {
+    margin-top: 15px;
+  }
+
+  .orderItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .totalAmount {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: right;
+>>>>>>> 0398932218b5cb736b7bfa713bff30e63d319e52
   }
