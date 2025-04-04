@@ -15,7 +15,7 @@ export default function Home() {
       <main className="main">
         <section id="about">
           <h2>About Me</h2>
-          <p>筑波大学 知識情報・図書館学類4年</p>
+          <p>筑波大学 知識情報・図書館学類 4年</p>
         </section>
 
         <section id="interests">
