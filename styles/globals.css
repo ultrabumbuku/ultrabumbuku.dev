@@ -77,6 +77,33 @@ nav ul {
 
 nav ul li {
   margin: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-nav a {
+  color: #333;
+  font-size: 1.5rem;
+  transition: opacity 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.icon-nav a:hover {
+  opacity: 0.7;
+}
+
+.note-icon {
+  width: 32px !important;
+  height: 32px !important;
+  transition: opacity 0.2s ease;
+  filter: brightness(0);
 }
 
 nav ul li a {
@@ -383,4 +410,53 @@ footer {
   main {
     padding: 0.5rem;
   }
+}
+
+/* Index page styles */
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+}
+
+.contact-icons-container {
+  margin: 0;
+  width: 100%;
+  padding: 1.5rem 0;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.contact-icons a {
+  color: #333;
+  font-size: 2rem;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.contact-icons a:hover {
+  color: #FAD02E;
+}
+
+.contact-icons .note-icon {
+  width: 32px;
+  height: 32px;
+  transition: opacity 0.2s ease;
+}
+
+.contact-icons a:hover .note-icon {
+  opacity: 0.8;
+}
+
+.note-icon {
+  color: #41C9B4;
+}
+
+.note-icon:hover {
+  opacity: 0.7;
 }
