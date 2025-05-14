@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
-import { StoreSelector } from './StoreSelector';
+import StoreSelector from './StoreSelector';
 
 interface MenuItem {
   name: string;
@@ -134,7 +134,7 @@ const SushiRandomizer: React.FC = () => {
 
   return (
     <div className="sushi-container">
-      <StoreSelector onStoreSelect={handleStoreSelect} />
+      <StoreSelector onStoreSelect={handleStoreSelect} isLoading={isLoading} />
       {isLoading && <div>メニューを読み込み中...</div>}
       {error && <div className="error">{error}</div>}
 

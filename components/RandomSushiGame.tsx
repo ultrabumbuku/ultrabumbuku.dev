@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter } from 'next/router'
-import PlayerList from './PlayerList'
 import { PlayerType, MenuItem } from '../types/types'
+import PlayerList from './PlayerList'
 
 /**
  * 無作為抽出寿司ゲームのメインコンポーネント
