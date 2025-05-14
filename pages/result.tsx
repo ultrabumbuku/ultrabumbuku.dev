@@ -1,94 +1,89 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
-import { IoArrowBack, IoLogoTwitter, IoTrophyOutline } from 'react-icons/io5'
-
-interface OrderItem {
-  name: string
-  price: number
-}
-
-interface PlayerResult {
-  playerName: string
-  orders: OrderItem[]
-  totalAmount: number
-}
+import { IoArrowBack, IoShareSocialOutline } from 'react-icons/io5'
+import Layout from '../components/Layout'
+import { PlayerResultType } from '../types/types'
 
 const Result = () => {
-  const [results, setResults] = useState<PlayerResult[]>([])
+  const [results, setResults] = useState<PlayerResultType[]>([])
+  const [copied, setCopied] = useState(false)
   const router = useRouter()
 
   useEffect(() => {
-    const savedData = localStorage.getItem('resultData')
-    if (savedData) {
-      setResults(JSON.parse(savedData))
+    try {
+      const savedData = localStorage.getItem('sushiGameResults')
+      if (savedData) {
+        setResults(JSON.parse(savedData))
+      }
+    } catch (err) {
+      console.error('結果データの読み込みに失敗しました', err)
     }
   }, [])
 
-  const totalAmount = results.reduce((sum, player) => sum + player.totalAmount, 0)
+  const mostExpensivePlayer = results.length > 0 
+    ? results.reduce((prev, current) => 
+        prev.totalAmount >= current.totalAmount ? prev : current, 
+      results[0])
+    : null
 
-  const handleShare = () => {
-    const text = `${winner.playerName}さんが優勝しました！（${winner.totalAmount}円）\n#無作為抽出寿司`
-    const url = 'https://ultrabumbuku.dev/musakui'
-    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
-    window.open(twitterUrl, '_blank')
+  const handleCopyResults = () => {
+    const text = results.map(player => 
+      `${player.playerName}さん\n${player.orders.map(order => order.name).join('\n')}`
+    ).join('\n\n')
+    navigator.clipboard.writeText(text)
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2000)
   }
 
-  // 優勝者（最も合計金額が低い人）を取得
-  const winner = results.reduce((prev, current) => 
-    prev.totalAmount <= current.totalAmount ? prev : current
-  , results[0]);
-
   return (
-    <div className="result-container">
-      <h1 className="resultTitle">お会計</h1>
-      
-      {winner && (
-        <div className="winnerSection">
-          <IoTrophyOutline className="trophyIcon" />
-          <div className="winnerInfo">
-            <span className="winnerLabel">優勝</span>
-            <span className="winnerName">{winner.playerName}</span>
-            <span className="winnerAmount">{winner.totalAmount}円</span>
-          </div>
-        </div>
-      )}
-
-      <div className="resultGrid">
-        {results.map((player, index) => (
-          <div key={index} className="playerCard">
-            <div className="playerHeader">
-              <h2>{player.playerName}</h2>
-              <span className="playerTotal">{player.totalAmount}円</span>
+    <Layout title="結果">
+      <section className="result-container">
+        <h1 className="resultTitle">結果</h1>
+        {results.length === 0 ? (
+          <p>結果データが見つかりません</p>
+        ) : (
+          <>
+            <div className="totalAmount">
+              <h2>優勝者</h2>
+              <p>{mostExpensivePlayer?.playerName}さん</p>
             </div>
-            <ul className="orderList">
-              {player.orders.map((order, idx) => (
-                <li key={idx} className="orderItem">
-                  <span>{order.name}</span>
-                  <span className="orderPrice">{order.price}円</span>
-                </li>
+            <div className="resultGrid">
+              {results.map((player, index) => (
+                <div key={index} className="playerCard">
+                  <h3>{player.playerName}さん</h3>
+                  <p>注文数: {player.orders.length}品</p>
+                  <p>合計金額: {player.totalAmount}円</p>
+                  <ul>
+                    {player.orders.map((order, orderIndex) => (
+                      <li key={orderIndex} className="flex justify-between">
+                        <span>{order.name}</span>
+                        <span>{order.price}円</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-
-      <div className="actions">
-        <button
-          onClick={() => router.push('/musakui')}
-          className="backButton"
-        >
-          <IoArrowBack />
-          <span>もう一度遊ぶ</span>
-        </button>
-        <button
-          onClick={handleShare}
-          className="shareButton"
-        >
-          <IoLogoTwitter />
-          <span>Twitterでシェア</span>
-        </button>
-      </div>
-    </div>
+            </div>
+            <div className="actions flex flex-wrap justify-center space-x-0 space-y-2 md:space-x-4 md:space-y-0">
+              <button
+                onClick={() => router.push('/musakui')}
+                className="w-full md:w-auto bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded flex items-center justify-center"
+              >
+                <IoArrowBack className="mr-2" />
+                もう一度遊ぶ
+              </button>
+              <button
+                onClick={handleCopyResults}
+                className="w-full md:w-auto bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded flex items-center justify-center"
+              >
+                <IoShareSocialOutline className="mr-2" />
+                {copied ? 'コピーしました！' : '結果をコピー'}
+              </button>
+            </div>
+          </>
+        )}
+      </section>
+    </Layout>
   )
 }
 

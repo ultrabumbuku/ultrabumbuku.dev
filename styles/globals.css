@@ -32,9 +32,8 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  background-color: #f5f5f5;
+  color: #333;
 }
 
 /* Layout styles */
@@ -46,45 +45,40 @@ body {
 
 .layout main {
   flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
+/* Header styles */
 header {
   background: #FAD02E;
   color: #333;
   padding: 1rem 0;
-  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
 }
 
 header h1 {
   margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-nav ul li {
-  margin: 0 1rem;
-  display: flex;
-  align-items: center;
-}
-
+/* Navigation styles */
 .icon-nav {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .icon-nav a {
@@ -111,41 +105,210 @@ nav ul li a {
   text-decoration: none;
 }
 
-main {
-  padding: 1.5rem 2rem;
-  flex: 1;
+/* Game styles */
+.random-sushi-game {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-main section {
+.store-selector-container {
   margin-bottom: 2rem;
 }
 
-.contact-icons {
+.player-form {
+  margin-bottom: 2rem;
+}
+
+.player-form input {
+  flex-grow: 1;
+  padding: 0.75rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.player-form input:focus {
+  outline: none;
+  border-color: #FAD02E;
+}
+
+.game-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.game-controls button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Player list styles */
+.player-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.player-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.player-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.current-roll {
+  background: #fff8e1;
+  border: 1px solid #ffe0b2;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.order-history {
+  margin-top: 1rem;
+}
+
+.order-history ul {
+  max-height: 200px;
+  overflow-y: auto;
+  margin: 0.5rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.order-history li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.total-amount {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: 2px solid #f0f0f0;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Result page styles */
+.result-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resultTitle {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.totalAmount {
+  background: linear-gradient(135deg, #FAD02E 0%, #f8c800 100%);
+  color: #333;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.totalAmount h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.totalAmount p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.resultGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.playerCard {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.playerCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.playerCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.playerCard li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.actions {
   display: flex;
   gap: 1rem;
   justify-content: center;
-  margin: 2rem 0;
+  margin-top: 2rem;
 }
 
-.contact-icons a {
-  display: inline-block;
+.actions button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.contact-icons img {
-  width: 36px;
-  height: 36px;
-}
-
-#notes {
-  font-size: 0.9rem;
-}
-
+/* Footer styles */
 footer {
   background: #FAD02E;
   color: #333;
   text-align: center;
   padding: 1rem 0;
-  width: 100%;
   margin-top: auto;
 }
 
@@ -160,237 +323,39 @@ footer {
   text-decoration: underline;
 }
 
-/* Home styles */
-.main {
-  padding: 1rem;
-}
-
-/* KasugaGenerator styles */
-.generatorSection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-.generatorControls {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-.generatorControls input {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.result {
-  text-align: center;
-  font-size: 1.2rem;
-  margin-top: 1rem;
-}
-
-.tweetButton {
-  margin-top: 1rem;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #1da1f2;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-.tweetButton:hover {
-  background-color: #1991db;
-}
-
-/* SushiRandomizer styles */
-.sushi-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.addPlayerForm {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.addPlayerForm input[type="text"] {
-  flex-grow: 1;
-  padding: 10px;
-  margin-right: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.addPlayerForm button,
-.sushi-controls button {
-  padding: 10px 20px;
-  background-color: #333;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.addPlayerForm button:hover,
-.sushi-controls button:hover {
-  background-color: #333333b5;
-}
-
-.player {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.sushi-controls {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin: 20px 0;
-}
-
-.rollButton {
-  background-color: #4a90e2;
-  color: white;
-}
-
-.rollButton:hover {
-  background-color: #357abd;
-}
-
-.resetButton {
-  background-color: #a9a9a9;
-  color: white;
-}
-
-.resetButton:hover {
-  background-color: #808080;
-}
-
-/* Result page styles */
-.result-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.resultTitle {
-  text-align: center;
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 2rem;
-}
-
-.totalAmount {
-  background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
-  color: white;
-  padding: 20px;
-  border-radius: 12px;
-  text-align: center;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.resultGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-bottom: 2rem;
-}
-
-.playerCard {
-  background: white;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.actions {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.backButton, .shareButton {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: all 0.3s ease;
-}
-
-.backButton {
-  background-color: #f8f9fa;
-  color: #333;
-  border: 1px solid #ddd;
-}
-
-.backButton:hover {
-  background-color: #e9ecef;
-}
-
-.shareButton {
-  background-color: #000000;
-  color: white;
-}
-
-.shareButton:hover {
-  background-color: #1a1a1a;
-}
-
-/* StoreSelector styles */
-.store-selector {
-  margin-bottom: 20px;
-}
-
-.store-selector input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 10px;
-}
-
-.error {
-  color: #dc3545;
-  margin-top: 5px;
-}
-
 /* Responsive styles */
 @media (max-width: 768px) {
+  .layout main {
+    padding: 1rem;
+  }
+
   .header-content {
     flex-direction: column;
-    align-items: center;
+    gap: 1rem;
   }
 
-  nav ul {
+  .game-controls {
     flex-direction: column;
-    align-items: center;
   }
 
-  nav ul li {
-    margin: 0.5rem 0;
+  .game-controls button {
+    width: 100%;
   }
 
-  main {
-    padding: 1rem;
+  .player-list {
+    grid-template-columns: 1fr;
+  }
+
+  .resultGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+
+  .actions button {
+    width: 100%;
   }
 }
 
@@ -459,4 +424,115 @@ footer {
 
 .note-icon:hover {
   opacity: 0.7;
+}
+
+/* --- 追加・修正CSS --- */
+
+/* ボタンの統一デザイン */
+button, .btn {
+  background: #FAD02E;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6em 1.4em;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  margin: 0 0.2em;
+  outline: none;
+}
+button:hover, .btn:hover {
+  background: #ffe066;
+  color: #222;
+}
+button:active, .btn:active {
+  background: #f8c800;
+}
+button:disabled, .btn:disabled {
+  background: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+/* 入力フォームの統一デザイン */
+input[type="text"], input[type="number"] {
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0.6em 1em;
+  font-size: 1rem;
+  margin-right: 0.5em;
+  transition: border 0.2s;
+  background: #fff;
+}
+input[type="text"]:focus, input[type="number"]:focus {
+  border: 2px solid #FAD02E;
+  outline: none;
+}
+
+/* プレイヤー名・見出しの調整 */
+.player-header h3, .playerCard h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  letter-spacing: 0.02em;
+}
+
+/* 店舗名・説明文の調整 */
+.store-title, .store-selector-container h2, .store-selector-container p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5em;
+  color: #444;
+}
+.store-selector-container p {
+  margin-top: 0.2em;
+  font-size: 0.95rem;
+  color: #888;
+}
+
+/* カードの余白・影の調整 */
+.player-card, .playerCard, .random-sushi-game, .result-container {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  background: #fff;
+  margin-bottom: 1.5rem;
+}
+
+/* ボタン群の横並び・余白調整 */
+.game-controls, .actions {
+  gap: 0.7em;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+}
+
+/* プレイヤーリストの余白調整 */
+.player-list {
+  margin-top: 1.5em;
+}
+
+/* 注文履歴タイトルの余白調整 */
+.order-history h4 {
+  margin: 0.5em 0 0.5em 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* プレイヤー名の左寄せを修正 */
+.player-header {
+  align-items: flex-start;
+}
+
+/* 店舗名の太字 */
+.store-title {
+  font-weight: bold;
+  font-size: 1.15rem;
+  margin-bottom: 0.3em;
+}
+
+/* ヘッダーのアイコン間の黒丸を消す */
+.icon-nav li::before,
+.icon-nav li::after {
+  content: none !important;
 }

@@ -1,52 +1,35 @@
+/**
+ * 注意: このコンポーネントは現在使用されていません。
+ * RandomSushiGameコンポーネントは自動でメニューを取得するようになり、
+ * この店舗選択コンポーネントは不要になりました。
+ * 互換性のため残していますが、将来的に削除される可能性があります。
+ */
+
 import { useState } from 'react';
 
-interface StoreSelectProps {
-  onStoreSelect: (menuData: any) => void;
+interface StoreSelectorProps {
+  onStoreSelect: (storeName: string) => void;
+  isLoading: boolean;
 }
 
-export const StoreSelector: React.FC<StoreSelectProps> = ({ onStoreSelect }) => {
-  const [storeName, setStoreName] = useState('');
-  const [error, setError] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(false);  // 追加：ローディング状態
+const FIXED_STORE_NAME = 'つくば学園の森店';
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!storeName.trim()) {
-      setError('店舗名を入力してください');
-      return;
-    }
-
-    setIsLoading(true);
-    setError(null);
-
-    try {
-      const response = await fetch(`/api/menu?storeName=${encodeURIComponent(storeName.trim())}`);
-      const data = await response.json();
-      
-      if (response.ok) {
-        onStoreSelect(data);
-      } else {
-        setError(data.error || 'エラーが発生しました');
-      }
-    } catch (err) {
-      setError('メニューの取得に失敗しました');
-      console.error('Error fetching menu:', err);
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
+const StoreSelector: React.FC<StoreSelectorProps> = ({ onStoreSelect, isLoading }) => {
   return (
-    <form onSubmit={handleSubmit} className="store-selector">
-      <input
-        type="text"
-        value={storeName}
-        onChange={(e) => setStoreName(e.target.value)}
-        placeholder="店舗名を入力"
+    <div className="store-selector text-center mb-4">
+      <h2 className="text-xl font-semibold mb-2">店舗: {FIXED_STORE_NAME}</h2>
+      <button
+        onClick={() => onStoreSelect(FIXED_STORE_NAME)}
+        className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50"
         disabled={isLoading}
-      />
-      {isLoading && <span>読み込み中...</span>}
-      {error && <p className="error">{error}</p>}
-    </form>
+      >
+        {isLoading ? '読み込み中...' : 'メニュー取得'}
+      </button>
+      <p className="text-sm text-gray-600 mt-2">
+        ※店舗は「つくば学園の森店」に固定されています。
+      </p>
+    </div>
   );
 };
+
+export default StoreSelector;
