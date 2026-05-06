@@ -8,7 +8,7 @@ import PlayerList from './PlayerList'
 type Store = { name: string; url: string }
 
 
-const DEFAULT_CATEGORIES = ['フェア', '握り', '軍艦・巻物', 'サイドメニュー', 'ドリンク', 'デザート']
+const DEFAULT_CATEGORIES = ['フェア商品', 'にぎり', '軍艦・巻物', 'サイドメニュー', 'ドリンク', 'デザート']
 
 function weightedRandom(items: MenuItem[], weights: Record<string, string>): MenuItem {
   const w = (cat: string) => Math.max(0, parseFloat(weights[cat]) || 0)
