@@ -8,10 +8,29 @@ import PlayerList from './PlayerList'
 type Store = { name: string; url: string }
 
 
-const DEFAULT_CATEGORIES = ['フェア', '握り', '軍艦・巻物', 'サイドメニュー', 'ドリンク', 'デザート']
+const DEFAULT_CATEGORIES = ['フェア商品', 'にぎり', '軍艦・巻物', 'サイドメニュー', 'ドリンク', 'デザート']
+
+const CATEGORY_ALIASES: Record<string, string> = {
+  'フェア': 'フェア商品',
+  'フェア商品': 'フェア商品',
+  '握り': 'にぎり',
+  'にぎり': 'にぎり',
+}
+
+function normalizeCategory(category: string): string {
+  return CATEGORY_ALIASES[category] ?? category
+}
+
+function normalizeWeights(weights: Record<string, string>): Record<string, string> {
+  return Object.entries(weights).reduce((acc, [category, weight]) => {
+    acc[normalizeCategory(category)] = weight
+    return acc
+  }, {} as Record<string, string>)
+}
 
 function weightedRandom(items: MenuItem[], weights: Record<string, string>): MenuItem {
-  const w = (cat: string) => Math.max(0, parseFloat(weights[cat]) || 0)
+  const normalizedWeights = normalizeWeights(weights)
+  const w = (cat: string) => Math.max(0, parseFloat(normalizedWeights[normalizeCategory(cat)]) || 0)
   const total = items.reduce((sum, item) => sum + w(item.category), 0)
   if (total === 0) return items[Math.floor(Math.random() * items.length)]
   let rand = Math.random() * total
@@ -119,8 +138,9 @@ const RandomSushiGame = () => {
     const unsubWeights = onValue(ref(getDb(), 'game/categoryWeights'), snapshot => {
       const val = snapshot.val()
       if (!val) return
-      setCategoryWeights(val)
-      setDraftWeights(val)
+      const normalized = normalizeWeights(val)
+      setCategoryWeights(normalized)
+      setDraftWeights(normalized)
     })
     return () => { unsubStore(); unsubPlayers(); unsubRolls(); unsubWeights() }
   }, [])
@@ -301,7 +321,7 @@ const RandomSushiGame = () => {
             <div className="flex items-center gap-3 mt-4">
               <button
                 onClick={() => {
-                  set(ref(getDb(), 'game/categoryWeights'), { ...draftWeights })
+                  set(ref(getDb(), 'game/categoryWeights'), normalizeWeights({ ...draftWeights }))
                   setWeightsApplied(true)
                   setTimeout(() => setWeightsApplied(false), 2000)
                 }}
